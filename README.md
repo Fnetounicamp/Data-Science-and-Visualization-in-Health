@@ -1,6 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Fnetounicamp/p2prognostico/HEAD)
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/Fnetounicamp/p2prognostico/HEAD
+
 
 ├── README.md          <- apresentação do projeto
 │
