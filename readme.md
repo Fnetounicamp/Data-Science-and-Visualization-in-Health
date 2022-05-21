@@ -1,13 +1,13 @@
 ## Projeto Prognóstico: predição de mortalidade
 
-## Project Prognosis: predicted mortality
-
 # Apresentação do projeto
 O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação Ciência e Visualização de Dados em Saúde, oferecida no primeiro semestre de 2022, na Unicamp.
 
--  Francisco Neto  RA: 263798  Mestando Aluno Especial
--  Kátia Santana   RA: 233661 
--  Lukas da Rosa   RA: 183167 
+|Nome  | RA | Especialização|
+|--|--|--|
+| Francisco Neto  | 263798  | Mestando Aluno Especial|
+| Kátia Santana  | 233661  | Computação|
+| Lukas da Rosa  | 183167  | XXX|
 
 ## Contextualização da Proposta
 
@@ -22,13 +22,15 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 	
 # Data
   Os dados utilizados para este projeto respeita as possíveis implicações éticas. São dados originais gerados para dois cenários e disponibilizados pelo synthea o que garante a reprodutibilidade do processo.
-	Para fins de prognóstico foram utilizados dados de 
   
 # Notebooks         
   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Fnetounicamp/p2prognostico/HEAD)
 
 ## Metodologia
-
+	
+> Abordagem adotada pelo projeto na predição.
+> Justificar as escolhas e (opcionalmente) apresentar fundamentos teóricos.
+> 
 # Bases Adotadas para o Estudo
 scenario01
 scenario02
@@ -79,4 +81,10 @@ o que poderia ser melhorado se houvesse mais tempo?
 
 ## Referências Bibliográficas
 
-  
+* https://github.com/santanche/lab2learn/blob/master/sql/synthea/synthea-prognostics.ipynb
+* https://www.findacode.com/snomed/
+* https://www.findacode.com/snomed/230690007--cerebrovascular-accident.html?hl=230690007
+* https://synthea.mitre.org/
+* https://github.com/synthetichealth/synthea
+
+
