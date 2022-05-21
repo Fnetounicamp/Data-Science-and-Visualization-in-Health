@@ -12,7 +12,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 ## Contextualização da Proposta
 
   Este projeto tem como objetivo geral gerar um modelo de prognóstico para realizar a predição de mortalidade de pacientes sintéticos gerados em cenários fictícios de acordo com a base de dados do synthea.
-	Através desta base de dados foram escolhidos dados relacionados aos diretamente aos pacientes **patients.csv**, encontros dos pacientes com médicos **encounters.csv**, as condições dos pacientes **conditions.csv** e os dados de planos de saúde de cada paciente **careplans.csv**.  
+	Através desta base de dados foram escolhidos dados relacionados aos diretamente aos pacientes **patients.csv**, consultas dos pacientes com os médicos **encounters.csv**, as condições dos pacientes **conditions.csv** e os dados de planos de saúde de cada paciente **careplans.csv**.  
 
 # Ferramentas
 	As ferramentas utilizadas para desenvolvimento deste projeto foram:
