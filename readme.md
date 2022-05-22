@@ -55,7 +55,7 @@ Outro fator verificado foi relacionado à entrada de pacientes no hospital com s
 
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
-# 4. Resultados Obtidos
+# 4. Resultados e Discusão
 Esta seção pode opcionalmente ser apresentada em conjunto com a metodologia, intercalando método e resultados.
 
 Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
@@ -77,18 +77,17 @@ como analisar e interpretar as diferenças?
 testar diferentes composições de dados sobre o paciente para a predição (por exemplo, quantidade diversificadas de número de itens).
 
 
-# 5. Evolução do Projeto
-Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o andamento do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para que, de serta forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houve dados suficientes, dentro desta base de dados, que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
-
-# 6. Discussão
-
 Fazer um breve debate sobre os resultados alcançados. Aqui pode ser feita a análise dos possíveis motivos que certos resultados foram alcançados. Por exemplo:
 
 por que seu modelo alcançou (ou não) um bom resultado?
 por que o modelo de um cenário não se desempenhou bem em outro?
 A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
-# 7. Conclusão
+# 5. Evolução do Projeto
+Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o andamento do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para que, de serta forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houve dados suficientes, dentro desta base de dados, que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
+
+
+# 6. Conclusão
 
 **fator mais determinante é stress
 
@@ -103,7 +102,7 @@ Trabalhos Futuros:
 
 o que poderia ser melhorado se houvesse mais tempo?
 
-# 8. Referências Bibliográficas
+# Referências Bibliográficas
 
 1. Hospital Proncor. (2021). AVC (derrame cerebral): conheça os sintomas, causas e sequelas | Hospital Proncor.[Online]. Available: https://www.hospitalproncor.com.br/post/avc-derrame-cerebral
 2. Info Escila. (2019). Acidente Vascular Cerebral (AVC). [Online]. Available: https://www.infoescola.com/doencas/acidente-vascular-cerebral-avc-derrame/
