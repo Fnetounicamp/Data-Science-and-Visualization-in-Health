@@ -88,15 +88,11 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 
 
 # 6. Conclusão
+Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
 
-**fator mais determinante é stress
+Outro ponto averiguado pela equipe foi se a questão racial tinha algum impacto relacionado ao AVC. Neste cenário, não foi possível dar andamento com a predição pois o número de pacientes com AVC era predominante branco, com um percentual muito baixo de negros e apenas um asiático. 
 
-
-Destacar as principais conclusões obtidas no desenvolvimento do projeto.
-
-Destacar os principais desafios enfrentados.
-
-Principais lições aprendidas.
+Para trabalhos futuros, ficou definido pelo grupo que a doença escolhida para predição não foi a melhor, visto que o número de incidências foi pequeno. Sendo assim, ficou acordado que, para os dados disponibilizados pelo Synthea atualmente, a escolha por uma doença de origem respiratória seria mais vantajoso de se obter melhores resultados, visto que existem mais dados, em diferentes bases de dados relacionados às doenças respiratórias. 
 
 Trabalhos Futuros:
 
