@@ -48,6 +48,8 @@ Os dados utilizados para este projeto respeita as possíveis implicações étic
 
 Para treinamento do modelo e teste de predição, os dados utilizados foram retirados de dois cenários de dados (scenario01 e scenario02) disponíveis [neste endereço](https://github.com/santanche/lab2learn/tree/master/data/synthea).
 
+![Isso é uma imagem](tela1.png)
+
   
 # 2.4. Notebooks         
 O código do projeto pode ser encontrado através do botão abaixo. Ele será executado de forma online sem instalação de software através de um notebook em Jupyter.
@@ -55,7 +57,9 @@ O código do projeto pode ser encontrado através do botão abaixo. Ele será ex
   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Fnetounicamp/p2prognostico/HEAD)
 
 ## 3. Metodologia
-	
+
+
+
 > Abordagem adotada pelo projeto na predição.
 > Justificar as escolhas e (opcionalmente) apresentar fundamentos teóricos.
 > 
