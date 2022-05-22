@@ -1,6 +1,6 @@
 ## Projeto Prognóstico: predição de mortalidade
 
-# Apresentação do projeto
+# 1. Apresentação do projeto
 O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação Ciência e Visualização de Dados em Saúde, oferecida no primeiro semestre de 2022, na Unicamp.
 
 |Nome  | RA | Especialização|
@@ -9,10 +9,19 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Kátia Santana  | 233661  | XXX|
 | Lukas da Rosa  | 183167  | XXX|
 
-## Contextualização da Proposta
+## 2. Contextualização da Proposta
 
   Este projeto tem como objetivo geral gerar um modelo de prognóstico para realizar a predição de mortalidade de pacientes sintéticos gerados em cenários fictícios de acordo com a base de dados do synthea.
-	Através desta base de dados foram escolhidos dados relacionados aos diretamente aos pacientes **patients.csv**, consultas dos pacientes com os médicos **encounters.csv**, as condições dos pacientes **conditions.csv** e os dados de planos de saúde de cada paciente **careplans.csv**.  
+        Através desta base de dados foram escolhidos dados relacionados aos diretamente aos pacientes **patients.csv**, consultas dos pacientes com os médicos **encounters.csv**, as condições dos pacientes **conditions.csv** e os dados de planos de saúde de cada paciente **careplans.csv**.  
+        O foco desta predição está relacionada ao Acidente Vascular Cerebral - AVC. De acordo com o Hospital Proncor, AVC (CID 10 - I64) é o entupimento ou rompimento dos vasos que levam sangue ao cérebro, provocando a paralisia da região afetada no cérebro. Também é chamado de acidente vascular cerebral, derrame cerebral ou Acidente Vascular Encefálico (AVE). 
+# 2.1. Hipóteses 
+1. estabelecer se todos os pacientes deste banco de dados possuem planos de saúde;
+2. verificar se há distinção de raças em pessoas que tiveram AVC;
+3. estabelecer se pacientes que tiveram maiores gastos hospitalares, tiveram mais chances de viver por mais tempo;
+4. verificar se houve sintoma de dor de cabeça forte antes da ocorrência do AVC e morte;
+
+fator mais determinante é stress
+
 
 # Ferramentas
 	As ferramentas utilizadas para desenvolvimento deste projeto foram:
