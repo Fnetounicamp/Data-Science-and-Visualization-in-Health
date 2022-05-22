@@ -57,6 +57,15 @@ Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de da
 
 # 4. Resultados e Discusão
 
+# 4.1. Probabilidade de morte de pacientes após 30 dias do diagnóstico de AVC
+
+
+# 4.2. Probabilidade de morte de pacientes após 90 dias do diagnóstico de AVC
+
+
+# 4.3. Probabilidade de morte de pacientes após 1 ano do diagnóstico de AVC
+
+
 Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
 
 Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
@@ -84,7 +93,6 @@ A discussão dos resultados também pode ser feita opcionalmente na seção de R
 
 # 5. Evolução do Projeto
 Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o andamento do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para que, de serta forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houve dados suficientes, dentro desta base de dados, que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
-
 
 # 6. Conclusão
 Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
