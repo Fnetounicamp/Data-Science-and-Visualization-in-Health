@@ -49,6 +49,7 @@ As ferramentas utilizadas para desenvolvimento deste projeto foram:
 > 
 # 3.1. Bases Adotadas para o Estudo
 ![Isso é uma imagem](/assets/datafluxo.png)
+
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
 # 4. Resultados Obtidos
