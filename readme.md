@@ -11,9 +11,23 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 ## 2. Contextualização da Proposta
 
-  Este projeto tem como objetivo geral gerar um modelo de prognóstico para realizar a predição de mortalidade de pacientes sintéticos gerados em cenários fictícios de acordo com a base de dados do synthea.
-        Através desta base de dados foram escolhidos dados relacionados aos diretamente aos pacientes **patients.csv**, consultas dos pacientes com os médicos **encounters.csv**, as condições dos pacientes **conditions.csv** e os dados de planos de saúde de cada paciente **careplans.csv**.  
-        O foco desta predição está relacionada ao Acidente Vascular Cerebral - AVC. De acordo com o Hospital Proncor, AVC (CID 10 - I64) é o entupimento ou rompimento dos vasos que levam sangue ao cérebro, provocando a paralisia da região afetada no cérebro. Também é chamado de acidente vascular cerebral, derrame cerebral ou Acidente Vascular Encefálico (AVE). 
+Este projeto tem como objetivo geral gerar um modelo de prognóstico para realizar a predição de mortalidade de pacientes sintéticos gerados em cenários fictícios de acordo com a base de dados do synthea.
+ 
+ Através desta base de dados foram escolhidos dados relacionados aos diretamente aos pacientes **patients.csv**, consultas dos pacientes com os médicos **encounters.csv**, as condições dos pacientes **conditions.csv** e os dados de planos de saúde de cada paciente **careplans.csv**.  
+
+O foco desta predição está relacionada ao Acidente Vascular Cerebral - AVC. De acordo com o Hospital Proncor, AVC (CID 10 - I64) é o entupimento ou rompimento dos vasos que levam sangue ao cérebro, provocando a paralisia da região afetada no cérebro. Também é chamado de acidente vascular cerebral, derrame cerebral ou Acidente Vascular Encefálico (AVE). 
+	
+Dependendo da causa do AVC ele pode ser hemorrágico ou isquêmico: 
+
+O AVC isquêmico é o derrame com obstrução da artéria o que impede a passagem de oxigênio para as células cerebrais o que ocasiona sua morte. Essa condição é chamada de isquemia cardíaca. A obstrução da artéria pode acontecer por um trombo, que é um coágulo de sangue que se forma na parede do vaso sanguíneo; ou por um êmbolo, que nada mais é do que um trombo que se desloca pela corrente sanguínea até ficar preso em um vaso sanguíneo menor que sua extensão.
+
+O AVC hemorrágico é o derrame com rompimento de um vaso cerebral, ocorrendo um sangramento (hemorragia) em algum ponto do sistema nervoso.
+A hemorragia pode acontecer no interior do tecido cerebral (AVC hemorrágico intraparenquimatoso), que é o mais comum e responsável por 15% de todos os casos de AVC. Contudo, o sangramento também pode ocorrer perto da superfície cerebral, entre o cérebro e a meninge, conhecido como AVC hemorrágico subaracnóideo.
+
+![Isso é uma imagem](https://www.infoescola.com/wp-content/uploads/2008/03/acidente-vascular-cerebral-384907717.jpg)
+
+Apesar do AVC hemorrágico não ser tão comum quanto o isquêmico, pode causar a morte mais frequentemente do que acidentes vasculares cerebrais isquêmicos.
+
 # 2.1. Hipóteses 
 1. estabelecer se todos os pacientes deste banco de dados possuem planos de saúde;
 2. verificar se há distinção de raças em pessoas que tiveram AVC;
@@ -23,19 +37,19 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 fator mais determinante é stress
 
 
-# Ferramentas
+# 2.2. Ferramentas
 	As ferramentas utilizadas para desenvolvimento deste projeto foram:
 	- Notebook Jupyter
 	- Binder
 	- Orange
 	
-# Data
+# 2.3. Data
   Os dados utilizados para este projeto respeita as possíveis implicações éticas. São dados originais gerados para dois cenários e disponibilizados pelo synthea o que garante a reprodutibilidade do processo.
   
-# Notebooks         
+# 2.4. Notebooks         
   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Fnetounicamp/p2prognostico/HEAD)
 
-## Metodologia
+## 3. Metodologia
 	
 > Abordagem adotada pelo projeto na predição.
 > Justificar as escolhas e (opcionalmente) apresentar fundamentos teóricos.
@@ -91,6 +105,7 @@ o que poderia ser melhorado se houvesse mais tempo?
 ## Referências Bibliográficas
 
 * https://www.hospitalproncor.com.br/post/avc-derrame-cerebral#:~:text=O%20AVC%20(CID%2010%20%2D%20I64,Acidente%20Vascular%20Encef%C3%A1lico%20(AVE)
+* https://www.infoescola.com/doencas/acidente-vascular-cerebral-avc-derrame/
 * https://github.com/santanche/lab2learn/blob/master/sql/synthea/synthea-prognostics.ipynb
 * https://www.findacode.com/snomed/
 * https://www.findacode.com/snomed/230690007--cerebrovascular-accident.html?hl=230690007
