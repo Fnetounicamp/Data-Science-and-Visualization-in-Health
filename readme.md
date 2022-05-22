@@ -41,11 +41,14 @@ As ferramentas utilizadas para desenvolvimento deste projeto foram:
 - Orange
 
 # 3. Metodologia
+A metodologia escolhida para predição foi verificar se existe uma relação entre o paciente ter ou não um plano de saúde e ter maior ou menor chance de morte. Também foi verificado a questão de raças entre os pacientes, afim de analisar se este fator têm influência no AVC. 
 
+Outro fator verificado foi relacionado à entrada de pacientes no hospital com sintoma de dores de cabeça antes destes pacientes darem entrada com AVC. Por fim, verificaou-se a probabilidade de pacientes internados com dores de cabeça proguedirem esta situação de morte por AVC. 
 
 
 > Abordagem adotada pelo projeto na predição.
 > Justificar as escolhas e (opcionalmente) apresentar fundamentos teóricos.
+
 # 3.1. Bases Adotadas para o Estudo
 
 ![Isso é uma imagem](/assets/datafluxo.png)
