@@ -6,8 +6,8 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 |Nome  | RA | Especialização|
 |--|--|--|
 | Francisco Neto  | 263798  | Mestando Aluno Especial|
-| Kátia Santana  | 233661  | Graduação Elétrica|
-| Lukas da Rosa  | 183167  | Mestando Ciências da Computação|
+| Kátia Santana  | 233661  | Mestando Ciências da Computação|
+| Lukas da Rosa  | 183167  | Graduação Elétrica |
 
 ## 2. Contextualização da Proposta
 
