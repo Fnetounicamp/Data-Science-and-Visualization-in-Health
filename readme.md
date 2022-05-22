@@ -90,6 +90,7 @@ o que poderia ser melhorado se houvesse mais tempo?
 
 ## Referências Bibliográficas
 
+* https://www.hospitalproncor.com.br/post/avc-derrame-cerebral#:~:text=O%20AVC%20(CID%2010%20%2D%20I64,Acidente%20Vascular%20Encef%C3%A1lico%20(AVE)
 * https://github.com/santanche/lab2learn/blob/master/sql/synthea/synthea-prognostics.ipynb
 * https://www.findacode.com/snomed/
 * https://www.findacode.com/snomed/230690007--cerebrovascular-accident.html?hl=230690007
