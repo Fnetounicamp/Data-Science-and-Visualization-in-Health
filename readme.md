@@ -9,7 +9,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Kátia Santana  | 233661  | Mestando Ciências da Computação|
 | Lukas da Rosa  | 183167  | Graduação Elétrica |
 
-## 2. Contextualização da Proposta
+# 2. Contextualização da Proposta
 
 Este projeto tem como objetivo geral gerar um modelo de prognóstico para realizar a predição de mortalidade de pacientes sintéticos gerados em cenários fictícios de acordo com a base de dados do synthea.
  
@@ -48,7 +48,7 @@ Os dados utilizados para este projeto respeita as possíveis implicações étic
 
 Para treinamento do modelo e teste de predição, os dados utilizados foram retirados de dois cenários de dados (scenario01 e scenario02) disponíveis [neste endereço](https://github.com/santanche/lab2learn/tree/master/data/synthea).
 
-## 3. Metodologia
+# 3. Metodologia
 
 
 
@@ -59,7 +59,7 @@ Para treinamento do modelo e teste de predição, os dados utilizados foram reti
 ![Isso é uma imagem](tela1.png)
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
-## 4. Resultados Obtidos
+# 4. Resultados Obtidos
 Esta seção pode opcionalmente ser apresentada em conjunto com a metodologia, intercalando método e resultados.
 
 Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
@@ -81,10 +81,10 @@ como analisar e interpretar as diferenças?
 testar diferentes composições de dados sobre o paciente para a predição (por exemplo, quantidade diversificadas de número de itens).
 
 
-## 5. Evolução do Projeto
+# 5. Evolução do Projeto
 Seção opcional se houver histórico de mudanças e evolução relevantes. Relate aqui a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
 
-## 6. Discussão
+# 6. Discussão
 
 Fazer um breve debate sobre os resultados alcançados. Aqui pode ser feita a análise dos possíveis motivos que certos resultados foram alcançados. Por exemplo:
 
@@ -92,7 +92,7 @@ por que seu modelo alcançou (ou não) um bom resultado?
 por que o modelo de um cenário não se desempenhou bem em outro?
 A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
-## 7. Conclusão
+# 7. Conclusão
 Destacar as principais conclusões obtidas no desenvolvimento do projeto.
 
 Destacar os principais desafios enfrentados.
@@ -103,7 +103,7 @@ Trabalhos Futuros:
 
 o que poderia ser melhorado se houvesse mais tempo?
 
-## 8. Referências Bibliográficas
+# 8. Referências Bibliográficas
 
 * https://www.hospitalproncor.com.br/post/avc-derrame-cerebral#:~:text=O%20AVC%20(CID%2010%20%2D%20I64,Acidente%20Vascular%20Encef%C3%A1lico%20(AVE)
 * https://www.infoescola.com/doencas/acidente-vascular-cerebral-avc-derrame/
