@@ -106,8 +106,6 @@ o que poderia ser melhorado se houvesse mais tempo?
 
 # 8. Referências Bibliográficas
 
-IEEE Spectrum. (2017). Nanogrids, microgrids,and Big Data: The future of the power grid [Online]. Available: http://spectrum.ieee.org/energy/renewables/nanogrids-microgrids-and-big-data-the-future-of-the-power-grid
-
 1. Hospital Proncor. (2021). AVC (derrame cerebral): conheça os sintomas, causas e sequelas | Hospital Proncor.[Online]. Available: https://www.hospitalproncor.com.br/post/avc-derrame-cerebral
 2. Info Escila. (2019). Acidente Vascular Cerebral (AVC). [Online]. Available: https://www.infoescola.com/doencas/acidente-vascular-cerebral-avc-derrame/
 3. SyntheticMass. (2022). HL7 FHIR API. [Online]. Available: https://synthea.mitre.org/fhir-api
