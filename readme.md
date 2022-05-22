@@ -56,7 +56,6 @@ Outro fator verificado foi relacionado à entrada de pacientes no hospital com s
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
 # 4. Resultados e Discusão
-Esta seção pode opcionalmente ser apresentada em conjunto com a metodologia, intercalando método e resultados.
 
 Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
 
