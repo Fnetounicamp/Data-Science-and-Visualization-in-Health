@@ -94,9 +94,8 @@ Outro ponto averiguado pela equipe foi se a questão racial tinha algum impacto 
 
 Para trabalhos futuros, ficou definido pelo grupo que a doença escolhida para predição não foi a melhor, visto que o número de incidências foi pequeno. Sendo assim, ficou acordado que, para os dados disponibilizados pelo Synthea atualmente, a escolha por uma doença de origem respiratória seria mais vantajoso de se obter melhores resultados, visto que existem mais dados, em diferentes bases de dados relacionados às doenças respiratórias. 
 
-Trabalhos Futuros:
 
-o que poderia ser melhorado se houvesse mais tempo?
+**o que poderia ser melhorado se houvesse mais tempo?
 
 # Referências Bibliográficas
 
