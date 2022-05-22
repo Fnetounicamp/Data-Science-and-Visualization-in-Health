@@ -78,7 +78,7 @@ testar diferentes composições de dados sobre o paciente para a predição (por
 
 
 # 5. Evolução do Projeto
-Seção opcional se houver histórico de mudanças e evolução relevantes. Relate aqui a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
+Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o andamento do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para que, de serta forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houve dados suficientes, dentro desta base de dados, que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
 
 # 6. Discussão
 
