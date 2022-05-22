@@ -34,9 +34,6 @@ Apesar do AVC hemorrágico não ser tão comum quanto o isquêmico, pode causar 
 3. estabelecer se pacientes que tiveram maiores gastos hospitalares, tiveram mais chances de viver por mais tempo;
 4. verificar se houve sintoma de dor de cabeça forte antes da ocorrência do AVC e morte;
 
-fator mais determinante é stress
-
-
 # 2.2. Ferramentas
 As ferramentas utilizadas para desenvolvimento deste projeto foram:
 - Notebook Jupyter
@@ -93,6 +90,10 @@ por que o modelo de um cenário não se desempenhou bem em outro?
 A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
 # 7. Conclusão
+
+**fator mais determinante é stress
+
+
 Destacar as principais conclusões obtidas no desenvolvimento do projeto.
 
 Destacar os principais desafios enfrentados.
@@ -105,12 +106,13 @@ o que poderia ser melhorado se houvesse mais tempo?
 
 # 8. Referências Bibliográficas
 
-* https://www.hospitalproncor.com.br/post/avc-derrame-cerebral#:~:text=O%20AVC%20(CID%2010%20%2D%20I64,Acidente%20Vascular%20Encef%C3%A1lico%20(AVE)
-* https://www.infoescola.com/doencas/acidente-vascular-cerebral-avc-derrame/
-* https://github.com/santanche/lab2learn/blob/master/sql/synthea/synthea-prognostics.ipynb
-* https://www.findacode.com/snomed/
-* https://www.findacode.com/snomed/230690007--cerebrovascular-accident.html?hl=230690007
-* https://synthea.mitre.org/
-* https://github.com/synthetichealth/synthea
+IEEE Spectrum. (2017). Nanogrids, microgrids,and Big Data: The future of the power grid [Online]. Available: http://spectrum.ieee.org/energy/renewables/nanogrids-microgrids-and-big-data-the-future-of-the-power-grid
+
+1. Hospital Proncor. (2021). AVC (derrame cerebral): conheça os sintomas, causas e sequelas | Hospital Proncor.[Online]. Available: https://www.hospitalproncor.com.br/post/avc-derrame-cerebral
+2. Info Escila. (2019). Acidente Vascular Cerebral (AVC). [Online]. Available: https://www.infoescola.com/doencas/acidente-vascular-cerebral-avc-derrame/
+3. SyntheticMass. (2022). HL7 FHIR API. [Online]. Available: https://synthea.mitre.org/fhir-api
+4. Synthetichealth. (2022). SyntheaTM Patient Generator. [Online]. Available: https://github.com/synthetichealth/synthea
+5. Synthea Case Study. (2022). Synthea-prognostics. [Online]. Available: https://github.com/santanche/lab2learn/blob/master/sql/synthea/synthea-prognostics.ipynb
+6. Find-a-code. (2022). Cerebrovascular accident. [Online]. Available: https://www.findacode.com/snomed/230690007--cerebrovascular-accident.html?hl=230690007
 
 
