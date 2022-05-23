@@ -57,8 +57,25 @@ Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de da
 
 # 4. Resultados e Discusão
 
+
+
+Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
+
+Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
+
+quais os dados sobre o paciente que serão usados para a predição;
+qual a abordagem/modelo adotado;
+resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
+
 # 4.1. Probabilidade de morte de pacientes após 30 dias do diagnóstico de AVC
 
+analisar diferentes composições de treinamento e análise do modelo:
+um modelo treinado/validado no cenário 1 e testado no cenário 2 e vice-versa;
+um modelo treinado e validado com os dados dos dois cenários;
+nos modelos dos dois itens anteriores:
+houve diferença de resultados?
+como analisar e interpretar as diferenças?
+testar diferentes composições de dados sobre o paciente para a predição (por exemplo, quantidade diversificadas de número de itens).
 
 # 4.2. Probabilidade de morte de pacientes após 90 dias do diagnóstico de AVC
 
@@ -73,16 +90,8 @@ Apresente o seu modelo de predição e resultados alcançados. Para cada modelo,
 quais os dados sobre o paciente que serão usados para a predição;
 qual a abordagem/modelo adotado;
 resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
-breve discussão sobre os resultados obtidos.
-Nesta seção, lembre-se das sugestões de análise:
 
-analisar diferentes composições de treinamento e análise do modelo:
-um modelo treinado/validado no cenário 1 e testado no cenário 2 e vice-versa;
-um modelo treinado e validado com os dados dos dois cenários;
-nos modelos dos dois itens anteriores:
-houve diferença de resultados?
-como analisar e interpretar as diferenças?
-testar diferentes composições de dados sobre o paciente para a predição (por exemplo, quantidade diversificadas de número de itens).
+
 
 
 Fazer um breve debate sobre os resultados alcançados. Aqui pode ser feita a análise dos possíveis motivos que certos resultados foram alcançados. Por exemplo:
