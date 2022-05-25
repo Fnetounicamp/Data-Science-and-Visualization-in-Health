@@ -69,13 +69,11 @@ qual a abordagem/modelo adotado;
 resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
 
 
+Como resultado o modelo não alcançou um bom resultado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
 
+Outro fator que auxiliou na ineficácia dos resultados foi a inexperiência do grupo com o software de aprendizado de máquina - Orange. Estes fatores dificultaram na implementação dos inputs e targets a serem analisados e uso mais eficaz da plataforma. 
 
-Fazer um breve debate sobre os resultados alcançados. Aqui pode ser feita a análise dos possíveis motivos que certos resultados foram alcançados. Por exemplo:
-
-por que seu modelo alcançou (ou não) um bom resultado?
 por que o modelo de um cenário não se desempenhou bem em outro?
-A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
 # 5. Evolução do Projeto
 Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o andamento do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para que, de serta forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houve dados suficientes, dentro desta base de dados, que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
