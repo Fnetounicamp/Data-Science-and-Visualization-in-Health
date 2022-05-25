@@ -60,35 +60,6 @@ Para obtenção do modelo foram utilizados os dois cenários já comentados ante
 
 
 
-# 4.1. Probabilidade de morte de pacientes após 30 dias do diagnóstico de AVC
-
-
-Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
-
-quais os dados sobre o paciente que serão usados para a predição;
-qual a abordagem/modelo adotado;
-resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
-
-analisar diferentes composições de treinamento e análise do modelo:
-um modelo treinado/validado no cenário 1 e testado no cenário 2 e vice-versa;
-um modelo treinado e validado com os dados dos dois cenários;
-nos modelos dos dois itens anteriores:
-houve diferença de resultados?
-como analisar e interpretar as diferenças?
-testar diferentes composições de dados sobre o paciente para a predição (por exemplo, quantidade diversificadas de número de itens).
-
-# 4.2. Probabilidade de morte de pacientes após 90 dias do diagnóstico de AVC
-
-Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
-
-quais os dados sobre o paciente que serão usados para a predição;
-qual a abordagem/modelo adotado;
-resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
-
-# 4.3. Probabilidade de morte de pacientes após 1 ano do diagnóstico de AVC
-
-
-
 Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
 
 Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
