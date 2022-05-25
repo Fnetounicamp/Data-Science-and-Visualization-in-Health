@@ -58,21 +58,17 @@ Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de da
 # 4. Resultados e Discusão
 Para obtenção do modelo foram utilizados os dois cenários já comentados anteriormente, selecionando os campos mais relevantes para nossa análise, como gênero, raça, etinia, datas das últimas consultas de cada paciente, datas de mortes e a identificação de cada um. Foi utilizada uma proporção fixa de dados de 66%, uma regressão logística com pré-processamento padrão. Também fez-se uso do método de aprendizado conjunto através do Random Forest Regression.
 
-
-
-Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
-
-Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
-
-quais os dados sobre o paciente que serão usados para a predição;
-qual a abordagem/modelo adotado;
-resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
-
-
-Como resultado o modelo não alcançou um bom resultado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
+Como o resultado o modelo não alcançou um bom resultado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
 
 Outro fator que auxiliou na ineficácia dos resultados foi a inexperiência do grupo com o software de aprendizado de máquina - Orange. Estes fatores dificultaram na implementação dos inputs e targets a serem analisados e uso mais eficaz da plataforma. 
 
+**Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
+
+**Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
+
+**quais os dados sobre o paciente que serão usados para a predição;
+qual a abordagem/modelo adotado;
+resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
 por que o modelo de um cenário não se desempenhou bem em outro?
 
 # 5. Evolução do Projeto
