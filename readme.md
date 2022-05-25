@@ -56,18 +56,18 @@ Outro fator verificado foi relacionado à entrada de pacientes no hospital com s
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
 # 4. Resultados e Discusão
-
+Para obtenção do modelo foram utilizados os dois cenários já comentados anteriormente, selecionando os campos mais relevantes para nossa análise, como gênero, raça, etinia, datas das últimas consultas de cada paciente, datas de mortes e a identificação de cada um. Foi utilizada uma proporção fixa de dados de 75%, uma regressão logística com pré-processamento padrão.
 
 
 Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
+# 4.1. Probabilidade de morte de pacientes após 30 dias do diagnóstico de AVC
+
 
 Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
 
 quais os dados sobre o paciente que serão usados para a predição;
 qual a abordagem/modelo adotado;
 resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
-
-# 4.1. Probabilidade de morte de pacientes após 30 dias do diagnóstico de AVC
 
 analisar diferentes composições de treinamento e análise do modelo:
 um modelo treinado/validado no cenário 1 e testado no cenário 2 e vice-versa;
@@ -79,8 +79,14 @@ testar diferentes composições de dados sobre o paciente para a predição (por
 
 # 4.2. Probabilidade de morte de pacientes após 90 dias do diagnóstico de AVC
 
+Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
+
+quais os dados sobre o paciente que serão usados para a predição;
+qual a abordagem/modelo adotado;
+resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
 
 # 4.3. Probabilidade de morte de pacientes após 1 ano do diagnóstico de AVC
+
 
 
 Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
@@ -110,8 +116,7 @@ Outro ponto averiguado pela equipe foi se a questão racial tinha algum impacto 
 
 Para trabalhos futuros, ficou definido pelo grupo que a doença escolhida para predição não foi a melhor, visto que o número de incidências foi pequeno. Sendo assim, ficou acordado que, para os dados disponibilizados pelo Synthea atualmente, a escolha por uma doença de origem respiratória seria mais vantajoso de se obter melhores resultados, visto que existem mais dados, em diferentes bases de dados relacionados às doenças respiratórias. 
 
-
-**o que poderia ser melhorado se houvesse mais tempo?**
+Caso houvesse maior tempo para descorrer sobre o assunto, seria interessante conseguir aprofundar mais nas ferramentas utilizadas com o intuito de extrair mais informações relevantes para os resultados do desenvolvimento do projeto. 
 
 # Referências Bibliográficas
 
