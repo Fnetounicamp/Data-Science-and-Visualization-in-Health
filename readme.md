@@ -62,15 +62,6 @@ Como o resultado o modelo não alcançou um bom resultado devido aos parâmetros
 
 Outro fator que auxiliou na ineficácia dos resultados foi a inexperiência do grupo com o software de aprendizado de máquina - Orange. Estes fatores dificultaram na implementação dos inputs e targets a serem analisados e uso mais eficaz da plataforma. 
 
-**Descreva etapas para obtenção do modelo, incluindo tratamento de dados, se houve.
-
-**Apresente o seu modelo de predição e resultados alcançados. Para cada modelo, apresente no mínimo:
-
-**quais os dados sobre o paciente que serão usados para a predição;
-qual a abordagem/modelo adotado;
-resultados do preditor (apresente da forma mais rica possível, usando tabelas e gráficos - métricas e curva ROC são bem vindos);
-por que o modelo de um cenário não se desempenhou bem em outro?
-
 # 5. Evolução do Projeto
 Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o objeto de pesquisa do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para, de certa forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houveram dados suficientes na base de dados que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
 
