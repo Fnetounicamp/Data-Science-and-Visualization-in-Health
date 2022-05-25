@@ -5,15 +5,19 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 |Nome  | RA | Especialização|
 |--|--|--|
-| Francisco Neto  | 263798  | Mestando Aluno Especial|
-| Kátia Santana  | 233661  | Mestando Ciências da Computação|
+| Francisco Neto  | 263798  | Mestrano Ciências da Computação| Aluno especial
+| Kátia Santana  | 233661  | Mestrado Ciências da Computação|
 | Lukas da Rosa  | 183167  | Graduação Elétrica |
 
 # 2. Contextualização da Proposta
 
-Este projeto tem como objetivo geral gerar um modelo de prognóstico para realizar a predição de mortalidade de pacientes sintéticos gerados em cenários fictícios de acordo com a base de dados do synthea.
+Este projeto tem como objetivo gerar um modelo de prognóstico para realizar a predição de mortalidade de pacientes sintéticos gerados em cenários fictícios de acordo com a base de dados do synthea.
  
- Através desta base de dados foram escolhidos dados relacionados aos diretamente aos pacientes **patients.csv**, consultas dos pacientes com os médicos **encounters.csv**, as condições dos pacientes **conditions.csv** e os dados de planos de saúde de cada paciente **careplans.csv**.  
+ Através desta base de dados foram escolhidos dados relacionados:
+  1. A pacientes - disponíveis na base de dados **patients.csv**;
+  2. Às consultas dos pacientes com os médicos - disponíveis na base de dados  **encounters.csv**;
+  3. Às condições dos pacientes - disponíveis na base de dados **conditions.csv** e;
+  4. Aos dados de planos de saúde de cada paciente - disponíveis na base de dados **careplans.csv**.  
 
 O foco desta predição está relacionada ao Acidente Vascular Cerebral - AVC. De acordo com o Hospital Proncor, AVC (CID 10 - I64) é o entupimento ou rompimento dos vasos que levam sangue ao cérebro, provocando a paralisia da região afetada no cérebro. Também é chamado de acidente vascular cerebral, derrame cerebral ou Acidente Vascular Encefálico (AVE). 
 	
@@ -29,10 +33,10 @@ A hemorragia pode acontecer no interior do tecido cerebral (AVC hemorrágico int
 Apesar do AVC hemorrágico não ser tão comum quanto o isquêmico, pode causar a morte mais frequentemente do que acidentes vasculares cerebrais isquêmicos.
 
 # 2.1. Hipóteses 
-1. estabelecer se todos os pacientes deste banco de dados possuem planos de saúde;
-2. verificar se há distinção de raças em pessoas que tiveram AVC;
-3. estabelecer se pacientes que tiveram maiores gastos hospitalares, tiveram mais chances de viver por mais tempo;
-4. verificar se houve sintoma de dor de cabeça forte antes da ocorrência do AVC e morte;
+1. Estabelecer se um prognóstico de mortalidade após um AVC está relacionado à utilização ou não de plano de saúde pelo paciente;
+2. Estabelecer se a raça de determinado paciente interfere na possibilidade do mesmo ter um AVC;
+3. Estabelecer se pacientes que tiveram maiores gastos hospitalares, tiveram mais sobreviver após um AVC;
+4. Verificar se houve sintoma de dor de cabeça forte antes da ocorrência do AVC e morte.
 
 # 2.2. Ferramentas
 As ferramentas utilizadas para desenvolvimento deste projeto foram:
@@ -41,9 +45,9 @@ As ferramentas utilizadas para desenvolvimento deste projeto foram:
 - Orange
 
 # 3. Metodologia
-A metodologia escolhida para predição foi verificar se existe uma relação entre o paciente ter ou não um plano de saúde e ter maior ou menor chance de morte. Também foi verificado a questão de raças entre os pacientes, afim de analisar se este fator têm influência no AVC. 
+A metodologia escolhida para predição foi verificar se existe uma relação entre o paciente ter ou não um plano de saúde e isso estar associado a ter maior ou menor chance de morte. Também foi verificada a questão de raças entre os pacientes, a fim de analisar se este fator têm influência no AVC. 
 
-Outro fator verificado foi relacionado à entrada de pacientes no hospital com sintoma de dores de cabeça antes destes pacientes darem entrada com AVC. Por fim, verificaou-se a probabilidade de pacientes internados com dores de cabeça proguedirem esta situação de morte por AVC. 
+Outro fator verificado foi relacionado à entrada de pacientes no hospital com sintoma de dores de cabeça antes destes pacientes darem entrada com AVC. Por fim, verificou-se a probabilidade de pacientes internados com dores de cabeça proguedirem esta situação de morte por AVC. 
 
 # 3.1. Bases Adotadas para o Estudo
 
@@ -51,8 +55,8 @@ Outro fator verificado foi relacionado à entrada de pacientes no hospital com s
 
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
-# 4. Resultados e Discussão
-Para obtenção do modelo foram utilizados os dois cenários já comentados anteriormente, selecionando os campos mais relevantes para nossa análise, como gênero, raça, etinia, datas das últimas consultas de cada paciente, datas de mortes e a identificação de cada um. Foi utilizada uma proporção fixa de dados de 66%, uma regressão logística com pré-processamento padrão. Também fez-se uso do método de aprendizado conjunto através do Random Forest Regression.
+# 4. Resultados e Discusão
+Para obtenção do modelo foram utilizados os dois cenários já comentados anteriormente, selecionando os campos mais relevantes para nossa análise, como gênero, raça, etnia, datas das últimas consultas de cada paciente, datas de mortes e a identificação de cada um. Foi utilizada uma proporção fixa de dados de 66%, uma regressão logística com pré-processamento padrão. Também fez-se uso do método de aprendizado conjunto através do Random Forest Regression.
 
 Como o resultado o modelo não alcançou um bom resultado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
 
@@ -68,7 +72,7 @@ resultados do preditor (apresente da forma mais rica possível, usando tabelas e
 por que o modelo de um cenário não se desempenhou bem em outro?
 
 # 5. Evolução do Projeto
-Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o andamento do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para que, de serta forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houve dados suficientes, dentro desta base de dados, que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
+Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o objeto de pesquisa do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para, de certa forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houveram dados suficientes na base de dados que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
 
 # 6. Conclusão
 Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
