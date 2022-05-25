@@ -45,10 +45,6 @@ A metodologia escolhida para predição foi verificar se existe uma relação en
 
 Outro fator verificado foi relacionado à entrada de pacientes no hospital com sintoma de dores de cabeça antes destes pacientes darem entrada com AVC. Por fim, verificaou-se a probabilidade de pacientes internados com dores de cabeça proguedirem esta situação de morte por AVC. 
 
-
-> Abordagem adotada pelo projeto na predição.
-> Justificar as escolhas e (opcionalmente) apresentar fundamentos teóricos.
-
 # 3.1. Bases Adotadas para o Estudo
 
 ![Isso é uma imagem](/assets/datafluxo.png)
