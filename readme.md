@@ -51,7 +51,7 @@ Outro fator verificado foi relacionado à entrada de pacientes no hospital com s
 
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
-# 4. Resultados e Discusão
+# 4. Resultados e Discussão
 Para obtenção do modelo foram utilizados os dois cenários já comentados anteriormente, selecionando os campos mais relevantes para nossa análise, como gênero, raça, etinia, datas das últimas consultas de cada paciente, datas de mortes e a identificação de cada um. Foi utilizada uma proporção fixa de dados de 66%, uma regressão logística com pré-processamento padrão. Também fez-se uso do método de aprendizado conjunto através do Random Forest Regression.
 
 Como o resultado o modelo não alcançou um bom resultado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
