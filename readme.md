@@ -58,7 +58,7 @@ Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de da
 # 4. Resultados e Discussão
 Para obtenção do modelo foram utilizados os dois cenários já comentados anteriormente, selecionando os campos mais relevantes para nossa análise, como gênero, raça, etnia, datas das últimas consultas de cada paciente, datas de mortes e a identificação de cada um. Foi utilizada uma proporção fixa de dados de 66%, uma regressão logística com pré-processamento padrão. Também fez-se uso do método de aprendizado conjunto através do Random Forest Regression.
 
-Como o resultado o modelo não alcançou um bom resultado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
+Como resultado, o modelo não alcançou um bom fator desejado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
 
 Outro fator que auxiliou na ineficácia dos resultados foi a inexperiência do grupo com o software de aprendizado de máquina - Orange. Estes fatores dificultaram na implementação dos inputs e targets a serem analisados e uso mais eficaz da plataforma. 
 
@@ -68,11 +68,11 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 # 6. Conclusão
 Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
 
-Outro ponto averiguado pela equipe foi se a questão racial tinha algum impacto relacionado ao AVC. Neste cenário, não foi possível dar andamento com a predição pois o número de pacientes com AVC era predominante branco, com um percentual muito baixo de negros e asiáticos. Também foi verificado se o gasto com planos de saúde dos pacientes afetaram na mortalidade dos pacientes com AVC. Como resultados, constatou que, tanto para pacientes que tiveram altos gastos, quanto para pacientes com gastos menores, não houve diferença no resultado final. 
+Outro ponto averiguado pela equipe foi se a questão racial tinha algum impacto relacionado ao AVC. Neste cenário, não foi possível dar andamento com a predição pois o número de pacientes com AVC era predominante branco, com um percentual muito baixo de negros e asiáticos. Também foi verificado se o gasto com planos de saúde dos pacientes afetaram a mortalidade dos pacientes com AVC. Como resultados, constatou que, tanto para pacientes que tiveram altos gastos, quanto para pacientes com gastos menores, não houve diferença no resultado final. 
 
-Para trabalhos futuros, ficou definido pelo grupo que a doença escolhida para predição não foi a melhor, visto que o número de incidências foi pequeno. Sendo assim, ficou acordado que, para os dados disponibilizados pelo Synthea atualmente, a escolha por uma doença de origem respiratória seria mais vantajoso de se obter melhores resultados, visto que existem mais dados, em diferentes bases de dados relacionados às doenças respiratórias. 
+Para trabalhos futuros, ficou definido pelo grupo que a doença escolhida para predição não foi a melhor, visto que o número de incidências foi pequeno. Sendo assim, ficou acordado que, para os dados disponibilizados pelo Synthea atualmente, a escolha por uma doença de origem respiratória seria mais vantajosa de se obter melhores resultados, visto que existem mais dados, em diferentes bases de dados relacionados às doenças respiratórias. 
 
-Caso houvesse maior tempo para descorrer sobre o assunto, seria interessante conseguir aprofundar mais nas ferramentas utilizadas com o intuito de extrair mais informações relevantes para os resultados do desenvolvimento do projeto. 
+Caso houvesse maior tempo para discorrer sobre o assunto, seria interessante conseguir aprofundar mais nas ferramentas utilizadas com o intuito de extrair mais informações relevantes para os resultados do desenvolvimento do projeto. 
 
 # Referências Bibliográficas
 
