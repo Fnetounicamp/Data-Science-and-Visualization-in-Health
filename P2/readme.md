@@ -96,6 +96,7 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 **Curva ROC Combinando os cenários 01 e 02:**
 ![Isso é uma imagem](/P2/assets/LR_&_RF_cross_validated.png)
 
+Conseguimos perceber que após a combinação de validação usando dados da P1 e treino com dados da P2 (e vice-versa) obtivemos um resultado melhor que quando treinamos e validamos utilizando a mesma base de dados.
 
 # 7. Conclusão
 Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
