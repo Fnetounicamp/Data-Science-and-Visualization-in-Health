@@ -67,10 +67,11 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 # 6. Resultados Obtidos
 
 **Métricas - Resultados obtidos através dos dados do cenário 01:**
-![Isso é uma imagem](/assets/Métricas - Resultado Orange - Cenário 01.png)
+
+![Isso é uma imagem]
 
 **Matriz de Confusão 01:**
-![Isso é uma imagem](/assets/Matriz de Confusão - Resultado Orange - Cenário 01.png)
+![Isso é uma imagem](https://github.com/Fnetounicamp/p2prognostico/blob/main/assets/Matriz%20de%20Confus%C3%A3o%20-%20Resultado%20Orange%20-%20Cen%C3%A1rio%2001.png)
 
 **Curva ROC cenário 01:**	
 ![Isso é uma imagem](/assets/LR_&_RF_scenario01.png)
@@ -79,7 +80,7 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 ![Isso é uma imagem](/assets/Métricas - Resultado Orange - Cenário 02.png)
 
 **Matriz de Confusão 02:**
-![Isso é uma imagem](/assets/Matriz de Confusão - Resultado Orange - Cenário 02.png)
+![Isso é uma imagem](https://github.com/Fnetounicamp/p2prognostico/blob/main/assets/Matriz%20de%20Confus%C3%A3o%20-%20Resultado%20Orange%20-%20Cen%C3%A1rio%2002.png)
 
 **Curva ROC cenário 02:**
 ![Isso é uma imagem](/assets/LR_&_RF_scenario02.png)
