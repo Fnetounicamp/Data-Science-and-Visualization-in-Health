@@ -64,8 +64,12 @@ Outro fator que auxiliou na ineficácia dos resultados foi a inexperiência do g
 
 # 5. Evolução do Projeto
 Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o objeto de pesquisa do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para, de certa forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houveram dados suficientes na base de dados que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
+# 6. Resultados Obtidos
 
-# 6. Conclusão
+![Isso é uma imagem](/assets/datafluxo.png)
+
+****
+# 7. Conclusão
 Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
 
 Outro ponto averiguado pela equipe foi se a questão racial tinha algum impacto relacionado ao AVC. Neste cenário, não foi possível dar andamento com a predição pois o número de pacientes com AVC era predominante branco, com um percentual muito baixo de negros e asiáticos. Também foi verificado se o gasto com planos de saúde dos pacientes afetaram a mortalidade dos pacientes com AVC. Como resultados, constatou que, tanto para pacientes que tiveram altos gastos, quanto para pacientes com gastos menores, não houve diferença no resultado final. 
