@@ -66,8 +66,14 @@ Outro fator que auxiliou na ineficácia dos resultados foi a inexperiência do g
 Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o objeto de pesquisa do projeto, como por exemplo, a escolha da doença a ter seu prognóstico de mortalidade. No primeiro momento foi escolhida a Neutropenia Febril para, de certa forma, dar uma continuidade ao projeto anterior - P1 - Dados Tabulares. Porém, não houveram dados suficientes na base de dados que pudessem ser utilizados para predição. Assim, foi escolhida uma nova doença, que neste caso foi o Acidente Vascular Cerebral. 
 # 6. Resultados Obtidos
 
-![Isso é uma imagem](/assets/datafluxo.png)
+**Curva ROC cenário 01:**	
+![Isso é uma imagem](/assets/LR_&_RF_scenario01.png)
 
+**Curva ROC cenário 02:**
+![Isso é uma imagem](/assets/LR_&_RF_scenario02.png)
+
+**Curva ROC Combinando os cenários 1 e 2:**
+![Isso é uma imagem](/assets/LR_&_RF_cross_validated.png)
 ****
 # 7. Conclusão
 Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
