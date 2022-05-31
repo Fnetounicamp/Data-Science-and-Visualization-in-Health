@@ -67,32 +67,32 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 # 6. Resultados Obtidos
 
 **Métricas - Resultados obtidos através dos dados do cenário 01:**
-
-![Isso é uma imagem]
+![Isso é uma imagem](/assets/MetricasCenario01.png)
 
 **Matriz de Confusão 01:**
-![Isso é uma imagem](https://github.com/Fnetounicamp/p2prognostico/blob/main/assets/Matriz%20de%20Confus%C3%A3o%20-%20Resultado%20Orange%20-%20Cen%C3%A1rio%2001.png)
+![Isso é uma imagem](/assets/MatrizCenario01.png | width=100)
 
 **Curva ROC cenário 01:**	
 ![Isso é uma imagem](/assets/LR_&_RF_scenario01.png)
 
 **Métricas - Resultados obtidos através dos dados do cenário 02:**
-![Isso é uma imagem](/assets/Métricas - Resultado Orange - Cenário 02.png)
+![Isso é uma imagem](/assets/MetricasCenario02.png)
 
 **Matriz de Confusão 02:**
-![Isso é uma imagem](https://github.com/Fnetounicamp/p2prognostico/blob/main/assets/Matriz%20de%20Confus%C3%A3o%20-%20Resultado%20Orange%20-%20Cen%C3%A1rio%2002.png)
+![Isso é uma imagem](/assets/MatrizCenario02.png)
 
 **Curva ROC cenário 02:**
 ![Isso é uma imagem](/assets/LR_&_RF_scenario02.png)
 
 **Métricas - Resultados obtidos através de uma combinação de dados dos cenários 01 e 02:**
-![Isso é uma imagem](/assets/Métricas - Resultado Orange - Cenários 01 e 02 Combinados.png)
+![Isso é uma imagem](/assets/MetricasCenario0102.png)
 
 **Matriz de Confusão - combinação de dados dos cenários 01 e 02:**
-![Isso é uma imagem](/assets/Matriz de Confusão - Resultado Orange - Cenários 01 e 02 Combinados.png)
+![Isso é uma imagem](/assets/MatrizCenario0102.png)
 
 **Curva ROC Combinando os cenários 01 e 02:**
 ![Isso é uma imagem](/assets/LR_&_RF_cross_validated.png)
+
 
 # 7. Conclusão
 Após processamentos e análises feitas pela equipe, foi verificado que, para o Acidente Vascular Cerebral - AVC, o sintoma mais predominante entre os pacientes com esta doença é o **stress**, visto que todos os pacientes com AVC e que deram entrada na emergência ou no atendimento urgente tiveram este sintoma em consultas anteriores. Para fins de comparação, foi verificado se pacientes que deram entrada na emergência ou no atendimento urgente com sintoma de dores de cabeça e tiveram AVC, neste cenário, nenhum dos pacientes veio a óbito. 
