@@ -5,7 +5,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 |Nome  | RA | Especialização|
 |--|--|--|
-| Francisco Neto  | 263798  | Mestrano Ciências da Computação| Aluno especial
+| Francisco Neto  | 263798  | Mestrado Ciências da Computação| Aluno especial
 | Kátia Santana  | 233661  | Mestrado Ciências da Computação|
 | Lukas da Rosa  | 183167  | Graduação Elétrica |
 
@@ -19,7 +19,7 @@ Este projeto tem como objetivo gerar um modelo de prognóstico para realizar a p
   3. Às condições dos pacientes - disponíveis na base de dados **conditions.csv** e;
   4. Aos dados de planos de saúde de cada paciente - disponíveis na base de dados **careplans.csv**.  
 
-O foco desta predição está relacionada ao Acidente Vascular Cerebral - AVC. De acordo com o Hospital Proncor, AVC (CID 10 - I64) é o entupimento ou rompimento dos vasos que levam sangue ao cérebro, provocando a paralisia da região afetada no cérebro. Também é chamado de acidente vascular cerebral, derrame cerebral ou Acidente Vascular Encefálico (AVE). 
+O foco desta predição está relacionada ao Acidente Vascular Cerebral - AVC. De acordo com o Hospital Proncor, AVC (CID 10 - I64) é o entupimento ou rompimento dos vasos que levam sangue ao cérebro, provocando a paralisia da região afetada no cérebro. Também é chamado de derrame cerebral ou Acidente Vascular Encefálico (AVE). 
 	
 Dependendo da causa do AVC ele pode ser hemorrágico ou isquêmico: 
 
@@ -35,8 +35,8 @@ Apesar do AVC hemorrágico não ser tão comum quanto o isquêmico, pode causar 
 # 2.1. Hipóteses 
 1. Estabelecer se um prognóstico de mortalidade após um AVC está relacionado à utilização ou não de plano de saúde pelo paciente;
 2. Estabelecer se a raça de determinado paciente interfere na possibilidade do mesmo ter um AVC;
-3. Estabelecer se pacientes que tiveram maiores gastos hospitalares, tiveram mais sobreviver após um AVC;
-4. Verificar se houve sintoma de dor de cabeça forte antes da ocorrência do AVC e morte.
+3. Estabelecer se pacientes que tiveram maiores gastos hospitalares, tiveram mais chance de sobreviver após um AVC;
+4. Verificar se houve sintoma de dor de cabeça antes da ocorrência do AVC e morte.
 
 # 2.2. Ferramentas
 As ferramentas utilizadas para desenvolvimento deste projeto foram:
