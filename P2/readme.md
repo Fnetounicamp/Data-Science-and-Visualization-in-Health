@@ -51,7 +51,7 @@ Outro fator verificado foi relacionado à entrada de pacientes no hospital com s
 
 # 3.1. Bases Adotadas para o Estudo
 
-![Isso é uma imagem](/assets/datafluxo.png)
+![Isso é uma imagem](/P2/assets/datafluxo.png)
 
 Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
 
@@ -67,34 +67,34 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 # 6. Resultados Obtidos
 
 **Métricas - Resultados obtidos através dos dados do cenário 01:**
-![Isso é uma imagem](/assets/MetricasCenario01.png)
+![Isso é uma imagem](/P2/assets/MetricasCenario01.png)
 
 **Matriz de Confusão 01:**
 
-![Isso é uma imagem](/assets/MatrizCenario01.png)
+![Isso é uma imagem](/P2/assets/MatrizCenario01.png)
 
 **Curva ROC cenário 01:**	
-![Isso é uma imagem](/assets/LR_&_RF_scenario01.png)
+![Isso é uma imagem](/P2/assets/LR_&_RF_scenario01.png)
 
 **Métricas - Resultados obtidos através dos dados do cenário 02:**
-![Isso é uma imagem](/assets/MetricasCenario02.png)
+![Isso é uma imagem](/P2/assets/MetricasCenario02.png)
 
 **Matriz de Confusão 02:**
 
-![Isso é uma imagem](/assets/MatrizCenario02.png)
+![Isso é uma imagem](/P2/assets/MatrizCenario02.png)
 
 **Curva ROC cenário 02:**
-![Isso é uma imagem](/assets/LR_&_RF_scenario02.png)
+![Isso é uma imagem](/P2/assets/LR_&_RF_scenario02.png)
 
 **Métricas - Resultados obtidos através de uma combinação de dados dos cenários 01 e 02:**
-![](/assets/MetricasCenario0102.png)
+![](/P2/assets/MetricasCenario0102.png)
 
 **Matriz de Confusão - combinação de dados dos cenários 01 e 02:**
 
-![Isso é uma imagem](/assets/MatrizCenario0102.png)
+![Isso é uma imagem](/P2/assets/MatrizCenario0102.png)
 
 **Curva ROC Combinando os cenários 01 e 02:**
-![Isso é uma imagem](/assets/LR_&_RF_cross_validated.png)
+![Isso é uma imagem](/P2/assets/LR_&_RF_cross_validated.png)
 
 
 # 7. Conclusão
