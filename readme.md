@@ -70,7 +70,8 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 ![Isso é uma imagem](/assets/MetricasCenario01.png)
 
 **Matriz de Confusão 01:**
-![Isso é uma imagem](/assets/MatrizCenario01.png | width=100)
+
+![Isso é uma imagem](/assets/MatrizCenario01.png)
 
 **Curva ROC cenário 01:**	
 ![Isso é uma imagem](/assets/LR_&_RF_scenario01.png)
@@ -79,6 +80,7 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 ![Isso é uma imagem](/assets/MetricasCenario02.png)
 
 **Matriz de Confusão 02:**
+
 ![Isso é uma imagem](/assets/MatrizCenario02.png)
 
 **Curva ROC cenário 02:**
@@ -88,6 +90,7 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 ![Isso é uma imagem](/assets/MetricasCenario0102.png)
 
 **Matriz de Confusão - combinação de dados dos cenários 01 e 02:**
+
 ![Isso é uma imagem](/assets/MatrizCenario0102.png)
 
 **Curva ROC Combinando os cenários 01 e 02:**
