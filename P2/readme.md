@@ -87,7 +87,7 @@ Durante o desenvolvimento do projeto houveram algumas mudanças que alteraram o 
 ![Isso é uma imagem](/assets/LR_&_RF_scenario02.png)
 
 **Métricas - Resultados obtidos através de uma combinação de dados dos cenários 01 e 02:**
-![Isso é uma imagem](/assets/MetricasCenario0102.png)
+![](/assets/MetricasCenario0102.png)
 
 **Matriz de Confusão - combinação de dados dos cenários 01 e 02:**
 
