@@ -31,7 +31,7 @@ https://en.wikipedia.org/wiki/Prim%27s_algorithm
 
 O artigo apresenta um estudo de redes biológicas complexas e predição da função gênica que possibilitam métodos de alto rendimento - HTP - afim de detectar interações genéticas e proteicas. O estudo toma como base a genética da levedura Saccharomyces cerevisiae. Saccharomyces cerevisiae é uma espécie de levedura domesticada há pelo menos 3 mil anos e seu extensivo uso e considerável valor econômico decorrem do fato de que algumas cepas deste fungo unicelular são utilizadas em diversos processos industriais empregados na elaboração de produtos fermentados – como o etanol, e suas cepas são empregadas na alimentação humana e animal. Estudos mostram uma avaliação dos benefícios de sua aplicação na alimentação animal.
 
-
+![Isso é uma imagem](/assets/levedura.jpeg)
 
 A biologia molecular, bioquímica e genética da levedura
  tem sido intensamente estudada
