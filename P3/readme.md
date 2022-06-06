@@ -19,7 +19,8 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Lukas da Rosa  | 183167  | Graduação Elétrica |
 
 # 2. Referência bibliográfica do artigo lido
-(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1561585/)
+
+Artigo escolhido - Comprehensive curation and analysis of global interaction networks in Saccharomyces cerevisiae  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1561585/
 
 https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
 
@@ -31,7 +32,7 @@ https://en.wikipedia.org/wiki/Prim%27s_algorithm
 
 # 3. Breve descrição do artigo
 
-O artigo escolhido, **Large-scale mapping of human protein–protein interactions by mass spectrometry**, apresenta um estudo de redes biológicas complexas e predição da função gênica que possibilitam métodos de alto rendimento - HTP - a fim de detectar interações genéticas e protéicas. O estudo toma como base a genética da levedura Saccharomyces cerevisiae.
+O artigo escolhido apresenta um estudo de redes biológicas complexas e predição da função gênica que possibilitam métodos de alto rendimento - HTP - a fim de detectar interações genéticas e protéicas. O estudo toma como base a genética da levedura Saccharomyces cerevisiae.
 
 Utilizamos um banco de dados abrangente de interações genéticas e protéicas com evidências experimentais associadas à levedura Saccharomyces cerevisiae, tendo cerca de 33 mil interações combinados com todos os conjuntos de dados  triagem de alto rendimento - HTP.
 
@@ -59,15 +60,14 @@ Título do Dataset	http://base1.org/	Breve resumo (duas ou três linhas) sobre o
 
 # 5. Método
 
-Na ciência da computação, o algoritmo de Prim (também conhecido como algoritmo de Jarník) é um algoritmo ganancioso que encontra uma árvore geradora mínima para um grafo não direcionado ponderado. Isso significa que ele encontra um subconjunto das arestas que forma uma árvore que inclui todos os vértices, onde o peso total de todas as arestas da árvore é minimizado. O algoritmo opera construindo esta árvore um vértice por vez, a partir de um vértice inicial arbitrário, a cada passo adicionando a conexão mais barata possível da árvore para outro vértice.
+O método escolhido para reproduzir o dataset deste artigo foi usar as funções algoritmicas de Kruskal e Prim para construir árvores geradoras mínimas.  Mas, o que exatamente é uma árvore geradora mínima?
+Primeiramente é necessário entender o que é uma árvore geradora. Uma árvore geradora é simplesmente um conjunto de arestas do grafo que gera uma árvore. Toda árvore é um grafo conexo acíclico. Mas é mais fácil imaginar o mesmo grafo com pelo menos uma aresta entrando e no máximo uma aresta saindo de cada vértice. Uma árvore geradora  é um subconjunto de um grafo com o mesmo número de vértices que o grafo e arestas igual ao número de vértices -1, isto é, ela é chamada **mínima** se, dentre todas as árvores geradoras que existem no grafo, a soma dos pesos nas arestas dela é o menor possível, conforme mostra a imagem a seguir.
 
-Como mencionado anteriormente, o algoritmo Kruskal é usado para gerar uma árvore geradora mínima para um determinado grafo. Mas, o que exatamente é uma árvore geradora mínima? Uma árvore geradora mínima é um subconjunto de um grafo com o mesmo número de vértices que o grafo e arestas igual ao número de vértices -1. Ele também tem um custo mínimo para a soma de todos os pesos das arestas em uma árvore geradora.   
+![Isso é uma imagem](/P3/assets/xnQzT.png)
 
-O algoritmo de Kruskal ordena todas as arestas em ordem crescente de seus pesos de arestas e continua adicionando nós à árvore apenas se a aresta escolhida não formar nenhum ciclo. Além disso, ele escolhe a aresta com um custo mínimo no início e a aresta com um custo máximo no final. Assim, pode-se dizer que o algoritmo de Kruskal faz uma escolha localmente ótima, com a intenção de encontrar a solução ótima global. É por isso que é chamado de algoritmo ganancioso.
+Conforme mencionado anteriormente, o algoritmo de Prim (também conhecido como algoritmo de Jarník) é um algoritmo "ambicioso" que encontra uma árvore geradora mínima para um grafo não direcionado ponderado, ou seja, ele encontra um subconjunto das arestas que forma uma árvore que inclui todos os vértices, onde o peso total de todas as arestas da árvore é minimizado. O algoritmo opera construindo esta árvore um vértice por vez, a partir de um vértice inicial arbitrário, a cada passo adicionando a menor (baixo peso) conexão possível da árvore para outro vértice.
 
-
-
-Método usado para a análise -- adaptações feitas, ferramentas utilizadas, abordagens de análise adotadas e respectivos algoritmos. Etapas do processo reproduzido.
+O algoritmo Kruskal é usado para construir uma árvore geradora mínima para um determinado grafo. Ele também tem um custo mínimo para a soma de todos os pesos das arestas em uma árvore geradora. Este algoritmo ordena todas as arestas em ordem crescente de seus pesos de arestas e continua adicionando nós à árvore apenas se a aresta escolhida não formar nenhum ciclo. Além disso, ele escolhe a aresta com um custo mínimo no início e a aresta com um custo máximo no final. Assim, pode-se dizer que o algoritmo de Kruskal faz uma escolha localmente ótima, com a intenção de encontrar a solução ótima global. É por isso que é chamado de algoritmo "ambicioso".
 
 # 6. Resultados
 Apresente os resultados obtidos pela sua adaptação. Confronte os seus resultados com aqueles do artigo. Esta seção opcionalmente pode ser apresentada em conjunto com o método.
