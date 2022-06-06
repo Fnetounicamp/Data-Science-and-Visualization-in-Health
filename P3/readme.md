@@ -19,16 +19,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Lukas da Rosa  | 183167  | Graduação Elétrica |
 
 # 2. Referência bibliográfica do artigo lido
-
-Artigo escolhido - Comprehensive curation and analysis of global interaction networks in Saccharomyces cerevisiae  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1561585/
-
-https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
-
-https://www.simplilearn.com/tutorials/data-structure-tutorial/kruskal-algorithm
-
-Kruskal’s Algorithm for Minimum Spanning Forest, Maximilian P.L. Haslbeck, Peter Lammich, Julian Biendarra, December 14, 2021.
-
-https://en.wikipedia.org/wiki/Prim%27s_algorithm
+Reguly T, Breitkreutz A, Boucher L, et al. Comprehensive curation and analysis of global interaction networks in Saccharomyces cerevisiae. J Biol. 2006;5(4):11. doi:10.1186/jbiol36
 
 # 3. Breve descrição do artigo
 
