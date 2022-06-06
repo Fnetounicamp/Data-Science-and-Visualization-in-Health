@@ -1,55 +1,45 @@
+Projeto 3 - Reproduzindo o Experimento de um Artigo Científico
+O objetivo geral do projeto é reproduzir um experimento (total ou parcialmente) de um artigo científico. O tema do artigo deve estar relacionado a Ciência de Redes e Saúde. Poderão ser aceitos artigos cujos temas que tangenciam a área de saúde. Temas de artigos envolvendo ciência de redes em outros domínios deverão ser negociados previamente com os professores.
 
-## Reproduzindo o Experimento de um Artigo Científico
+Recomenda-se o seguinte índice para encontrar artigos com dados de redes publicados: (https://icon.colorado.edu/#!/networks)[https://icon.colorado.edu/#!/networks]
 
-# 1. Equipe
+A equipe tem a liberdade de adaptar e simplificar o experimento, conforme a disponibilidade dos dados, dos algoritmos e do grau de dificuldade na reprodução.
 
-|Nome  | RA | Especialização|
-|--|--|--|
-| Francisco Neto  | 263798  | Mestrado Ciências da Computação| Aluno especial
-| Kátia Santana  | 233661  | Mestrado Ciências da Computação|
-| Lukas da Rosa  | 183167  | Graduação Elétrica |
+Para a reprodução do experimento, pode ser usada qualquer ferramenta/framework de processamento de redes complexas.
 
-# 2. Contextualização da Proposta 
+O trabalho será feito em equipes (preferencialmente as mesmas do P2).
 
+Instruções para o Relatório Final
+Segue abaixo o modelo de como deve ser documentada a entrega.
 
+Tudo o que aparece neste modo de citação, ou indicado entre <...>, se refere a algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos do seu projeto.
 
-# 2.1. Resumo artigo
-1. Estabelecer se um prognóstico de mortalidade após um AVC está relacionado à utilização ou não de plano de saúde pelo paciente;
-2. Estabelecer se a raça de determinado paciente interfere na possibilidade do mesmo ter um AVC;
-3. Estabelecer se pacientes que tiveram maiores gastos hospitalares, tiveram mais chance de sobreviver após um AVC;
-4. Verificar se houve sintoma de dor de cabeça antes da ocorrência do AVC e morte.
+Se o relatório for feito em um notebook, o modelo a seguir pode ser colocado dentro do notebook diretamente. Nesse caso, coloque no markdown do projeto (fora do notebook) uma cópia dos dados até a seção de Apresentação e um link para o notebook com o relatório.
 
-# 2.2. Metodologia do artigo
-As ferramentas utilizadas para desenvolvimento deste projeto foram:
-- Notebook Jupyter
-- Binder
-- Orange
+Modelo Relatório Final de Projeto P3
+Apresentação
+O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação Ciência e Visualização de Dados em Saúde, oferecida no primeiro semestre de 2022, na Unicamp.
 
-# 2.3. Metodologia proposta
-A metodologia escolhida para predição foi verificar se existe uma relação entre o paciente ter ou não um plano de saúde e isso estar associado a ter maior ou menor chance de morte. Também foi verificada a questão de raças entre os pacientes, a fim de analisar se este fator têm influência no AVC. 
+Incluir nome RA e foco de especialização de cada membro do grupo. Os grupos devem ter no máximo 3 integrantes.
 
-Outro fator verificado foi relacionado à entrada de pacientes no hospital com sintoma de dores de cabeça antes destes pacientes darem entrada com AVC. Por fim, verificou-se a probabilidade de pacientes internados com dores de cabeça proguedirem esta situação de morte por AVC. 
+Nome	RA	Especialização
+Nome1	123456	Saúde
+Nome2	123456	Computação
+Nome3	123456	XXX
+Referência bibliográfica do artigo lido
+Coloque aqui a referência bibliográfica do artigo lido, incluindo o link para o site.
 
-# 2.3. Resultados
+Resumo
+Escreva um breve do artigo (com as suas palavras, não deve ser copiado texto do artigo).
 
-![Isso é uma imagem](/P2/assets/datafluxo.png)
+Breve descrição do experimento/análise do artigo que foi replicado
+Descreva brevemente a parte do artigo cujo experimento ou análise foi reproduzido. Explique o que foi usado como entrada e saída.
 
-Em ambos os cenários (scenario01 e scenario02), foram utilizados as bases de dados mostradas na imagem acima. 
+Dados usados como entrada
+Dataset	Endereço na Web	Resumo descritivo
+Título do Dataset	http://base1.org/	Breve resumo (duas ou três linhas) sobre o dataset.
+Método
+Método usado para a análise -- adaptações feitas, ferramentas utilizadas, abordagens de análise adotadas e respectivos algoritmos. Etapas do processo reproduzido.
 
-# 3. Discussão
-Para obtenção do modelo foram utilizados os dois cenários já comentados anteriormente, selecionando os campos mais relevantes para nossa análise, como gênero, raça, etnia, datas das últimas consultas de cada paciente, datas de mortes e a identificação de cada um. Foi utilizada uma proporção fixa de dados de 66%, uma regressão logística com pré-processamento padrão. Também fez-se uso do método de aprendizado conjunto através do Random Forest Regression.
-
-Como resultado, o modelo não alcançou um bom fator desejado devido aos parâmetros escolhidos para predição de mortalidade para estes cenários, visto que os parâmetros escolhidos tiveram poucas ocorrências dentro da base de dados mediante à doença selecionada.
-
-Outro fator que auxiliou na ineficácia dos resultados foi a inexperiência do grupo com o software de aprendizado de máquina - Orange. Estes fatores dificultaram na implementação dos inputs e targets a serem analisados e uso mais eficaz da plataforma. 
-
-# Referências Bibliográficas
-
-1. Hospital Proncor. (2021). AVC (derrame cerebral): conheça os sintomas, causas e sequelas | Hospital Proncor.[Online]. Available: https://www.hospitalproncor.com.br/post/avc-derrame-cerebral
-2. Info Escila. (2019). Acidente Vascular Cerebral (AVC). [Online]. Available: https://www.infoescola.com/doencas/acidente-vascular-cerebral-avc-derrame/
-3. SyntheticMass. (2022). HL7 FHIR API. [Online]. Available: https://synthea.mitre.org/fhir-api
-4. Synthetichealth. (2022). SyntheaTM Patient Generator. [Online]. Available: https://github.com/synthetichealth/synthea
-5. Synthea Case Study. (2022). Synthea-prognostics. [Online]. Available: https://github.com/santanche/lab2learn/blob/master/sql/synthea/synthea-prognostics.ipynb
-6. Find-a-code. (2022). Cerebrovascular accident. [Online]. Available: https://www.findacode.com/snomed/230690007--cerebrovascular-accident.html?hl=230690007
-
-
+Resultados
+Apresente os resultados obtidos pela sua adaptação. Confronte os seus resultados com aqueles do artigo. Esta seção opcionalmente pode ser apresentada em conjunto com o método.
