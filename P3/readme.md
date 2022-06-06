@@ -31,11 +31,11 @@ https://en.wikipedia.org/wiki/Prim%27s_algorithm
 
 # 3. Breve descrição do artigo
 
-O artigo apresenta um estudo de redes biológicas complexas e predição da função gênica que possibilitam métodos de alto rendimento - HTP - afim de detectar interações genéticas e proteicas. O estudo toma como base a genética da levedura Saccharomyces cerevisiae.
+O artigo escolhido, **Large-scale mapping of human protein–protein interactions by mass spectrometry**, apresenta um estudo de redes biológicas complexas e predição da função gênica que possibilitam métodos de alto rendimento - HTP - a fim de detectar interações genéticas e protéicas. O estudo toma como base a genética da levedura Saccharomyces cerevisiae.
 
-Foi utilizado um banco de dados abrangente de interações genéticas e proteicas com evidências experimentais associadas à levedura Saccharomyces cerevisiae, tendo cerca de pouco mais de 33 mil interações combinados com todos os conjuntos de dados  triagem de alto rendimento - HTP.
+Utilizamos um banco de dados abrangente de interações genéticas e protéicas com evidências experimentais associadas à levedura Saccharomyces cerevisiae, tendo cerca de 33 mil interações combinados com todos os conjuntos de dados  triagem de alto rendimento - HTP.
 
-As pesquisas feitas pelos autores tiveram como fonte de busco o PubMed e rendeu 53.117 publicações que continham dados de interação em um ou mais genes e/ou proteínas de levedura em desenvolvimento. Um total de 5.434 das 5.726 proteínas atualmente previstas e são referidas pelo menos uma vez na literatura primária.
+As pesquisas feitas pelos autores tiveram como fonte de busca o PubMed e rendeu 53.117 publicações que continham dados de interação em um ou mais genes e/ou proteínas de levedura em desenvolvimento. Um total de 5.434 das 5.726 proteínas atualmente previstas são referenciadas pelo menos uma vez na literatura primária.
 
 
 # 3.1. Resumo - Saccharomyces cerevisiae
@@ -44,7 +44,7 @@ Saccharomyces cerevisiae é uma espécie de levedura domesticada há pelo menos 
 
 ![Isso é uma imagem](/P3/assets/levedura.jpg)
 
-A cerca de uma década atrás, o genoma de Saccharomyces cerevisiae gerou dezenas de ferramentas genômicas funcionais para interrogação da função de genes e proteínas, incluindo microarrays de DNA para perfil de expressão gênica global e localização de fatores de ligação ao DNA e um conjunto abrangente de genes cepas de deleção para análise fenotípica. Após a descoberta do genoma, técnicas de triagem de alto rendimento (HTP) destinadas a identificar novos complexos de proteínas e redes de genes começaram a complementar as abordagens bioquímicas e genéticas convencionais.
+Há cerca de uma década, o genoma de Saccharomyces cerevisiae gerou dezenas de ferramentas genômicas funcionais para interrogação da função de genes e proteínas, incluindo microarrays de DNA para perfil de expressão gênica global e localização de fatores de ligação ao DNA e um conjunto abrangente de genes cepas de deleção para análise fenotípica. Após a descoberta do genoma, técnicas de triagem de alto rendimento (HTP) destinadas a identificar novos complexos de proteínas e redes de genes começaram a complementar as abordagens bioquímicas e genéticas convencionais.
 
 Além de análises HTP de redes de interação de proteínas de levedura, mapas iniciais de dois híbridos de levedura foram gerados para o verme nematoide Caenorhabditis
 elegans, a mosca da fruta Drosophila melanogaster e, mais recentemente, para humanos. Os vários conjuntos de dados gerados por essas técnicas começaram a revelar uma a rede global subjacente à complexidade celular.
