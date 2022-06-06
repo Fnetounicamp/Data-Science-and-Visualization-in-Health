@@ -28,6 +28,40 @@ Kruskal’s Algorithm for Minimum Spanning Forest, Maximilian P.L. Haslbeck, Pet
 https://en.wikipedia.org/wiki/Prim%27s_algorithm
 
 # 3. Resumo
+
+O artigo apresenta um estudo de redes biológicas complexas e predição da função gênica que possibilitam métodos de alto rendimento - HTP - afim de detectar interações genéticas e proteicas. O estudo toma como base a genética da levedura Saccharomyces cerevisiae. Saccharomyces cerevisiae é uma espécie de levedura domesticada há pelo menos 3 mil anos e seu extensivo uso e considerável valor econômico decorrem do fato de que algumas cepas deste fungo unicelular são utilizadas em diversos processos industriais empregados na elaboração de produtos fermentados – como o etanol, e suas cepas são empregadas na alimentação humana e animal. Estudos mostram uma avaliação dos benefícios de sua aplicação na alimentação animal.
+
+
+
+A biologia molecular, bioquímica e genética da levedura
+ tem sido intensamente estudada
+por décadas; continua sendo o eucarioto mais bem
+compreendido no nível da genética molecular. A conclusão da
+sequência do genoma de S. cerevisiae há quase uma década
+gerou uma série de ferramentas genômicas funcionais para
+interrogação da função de genes e proteínas, incluindo
+microarrays de DNA para perfil de expressão gênica global e
+localização de fatores de ligação ao DNA e um conjunto
+abrangente de genes cepas de deleção para análise fenotípica
+[1,2]. Na era pós-sequência do genoma, técnicas de triagem
+de alto rendimento (HTP) destinadas a identificar novos
+complexos de proteínas e redes de genes começaram a
+complementar as abordagens bioquímicas e genéticas
+convencionais [3,4]. A elucidação sistemática de interações
+de proteínas em S. cerevisiae foi realizada pelo método de
+dois híbridos, que detecta interações de pares [5-7], e por
+análise espectrométrica de massa (MS) de complexos de
+proteínas purificadas [8,9]. Em paralelo, os métodos de matriz
+genética sintética (SGA) e análise letal sintética por microarray
+(dSLAM) têm sido usados para descobrir sistematicamente
+interações genéticas letais sintéticas, nas quais mutações
+genéticas não letais se combinam para causar inviabilidade
+[10-13]. Além de análises HTP de redes de interação de
+proteínas de levedura, mapas iniciais de dois híbridos de
+levedura foram gerados para o verme nematoide Caenorhabditis
+elegans, a mosca da fruta Drosophila melanogaster e, mais
+recentemente, para humanos [14-17]. Os vários conjuntos de
+dados gerados por essas técnicas começaram a revelar a rede
 Escreva um breve do artigo (com as suas palavras, não deve ser copiado texto do artigo).
 
 # 3.1 Breve descrição do experimento/análise do artigo que foi replicado
