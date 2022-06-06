@@ -1,4 +1,4 @@
-## Projeto 3 - Reproduzindo o Experimento de um Artigo Científico
+# Projeto 3 - Reproduzindo o Experimento de um Artigo Científico
 
 O objetivo geral do projeto é reproduzir um experimento (total ou parcialmente) de um artigo científico. O tema do artigo deve estar relacionado a Ciência de Redes e Saúde.
 Para encontrar artigos publicados com dados de redes, fez-se o uso do seguinte link:(https://icon.colorado.edu/#!/networks)[https://icon.colorado.edu/#!/networks)
