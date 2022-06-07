@@ -30,7 +30,7 @@ Utilizamos um banco de dados abrangente de interações genéticas e protéicas 
 As pesquisas feitas pelos autores tiveram como fonte de busca o PubMed e rendeu 53.117 publicações que continham dados de interação em um ou mais genes e/ou proteínas de levedura em desenvolvimento. Um total de 5.434 das 5.726 proteínas atualmente previstas são referenciadas pelo menos uma vez na literatura primária.
 
 
-# 3.1. Resumo - Saccharomyces cerevisiae
+## 3.1. Resumo - Saccharomyces cerevisiae
 
 Saccharomyces cerevisiae é uma espécie de levedura domesticada há pelo menos 3 mil anos e seu extensivo uso e considerável valor econômico decorrem do fato de que algumas cepas deste fungo unicelular são utilizadas em diversos processos industriais empregados na elaboração de produtos fermentados – como o etanol, e suas cepas são empregadas na alimentação humana e animal. Estudos mostram uma avaliação dos benefícios de sua aplicação na alimentação animal. A Figura abaixo ilustra uma amostra da levedura Saccharomyces cerevisiae.
 
@@ -42,7 +42,7 @@ Além de análises HTP de redes de interação de proteínas de levedura, mapas 
 elegans, a mosca da fruta Drosophila melanogaster e, mais recentemente, para humanos. Os vários conjuntos de dados gerados por essas técnicas começaram a revelar uma a rede global subjacente à complexidade celular.
 
 
-# 3.2. Breve descrição do experimento/análise do artigo que foi replicado
+## 3.2. Breve descrição do experimento/análise do artigo que foi replicado
 
 Como todos os tipos de evidências experimentais para cada interação foram selecionados de cada publicação, foi possível estimar até que ponto as interações em cada conjunto de dados foram validadas abertamente, seja por mais de um método experimental e/ou por múltiplos publicações. Mesmo nos conjuntos de dados LCPI e LC-GI, a maioria das interações foi documentada diretamente apenas uma vez, com 33% e 20% das interações em cada conjunto de dados respectivos sendo reproduzidos por pelo menos duas publicações ou métodos experimentais. Apenas uma pequena fração de qualquer conjunto de dados foi validada mais de uma vez. Essas estimativas de re-cobertura são inerentemente conservadoras devido à representação mínima de raios usada para cada complexo. De particular importância, é improvável que as interações bem estabelecidas em uma publicação inicial sejam repetidas diretamente por publicações subsequentes que se baseiem na mesma linha de investigação.
 
