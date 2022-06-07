@@ -43,6 +43,40 @@ elegans, a mosca da fruta Drosophila melanogaster e, mais recentemente, para hum
 
 
 # 3.2. Breve descrição do experimento/análise do artigo que foi replicado
+
+
+
+
+Como
+todos os tipos de evidências experimentais para cada interação
+foram selecionados de cada publicação, foi possível estimar até
+que ponto as interações em cada conjunto de dados foram
+validadas abertamente, seja por mais de um método experimental
+e/ou por múltiplos publicações. Mesmo nos conjuntos de dados LCPI e LC-GI, a maioria das interações foi documentada diretamente
+apenas uma vez, com 33% e 20% das interações em cada conjunto
+de dados respectivos sendo reproduzidos por pelo menos duas
+publicações ou métodos experimentais (Figura 2a,b). Apenas uma
+pequena fração de qualquer conjunto de dados foi validada mais
+de uma vez (Figura 2a). Essas estimativas de re-cobertura são
+inerentemente conservadoras devido à representação mínima de
+raios usada para cada complexo. De particular importância, é
+improvável que as interações bem estabelecidas em uma publicação
+inicial sejam repetidas diretamente por publicações subsequentes
+que se baseiem na mesma linha de investigação.
+
+Notou-se que os genes persistentemente citados não são mais
+conectados do que a média, com base em redes HTP [55]. Para
+revelar potencial viés na extensão da investigação de qualquer nó
+nos conjuntos de dados LC, determinamos o número de interações
+totais (ou seja, incluindo interações redundantes) em excesso de
+conectividade para cada nó (consulte Materiais e métodos). Dentro
+dos conjuntos de dados LC-PI e LC-GI, é evidente que quanto mais
+uma proteína ou gene é estudado, mais conexões ele provavelmente
+exibirá (Figura 2c). Um modesto viés de estudo de 23% para genes
+essenciais foi evidente no conjunto de dados LC-PI (Figura 2d). Não
+está claro se esses efeitos são devidos ao aumento da cobertura
+após estudos mais aprofundados ou à tendência de proteínas
+altamente conectadas serem estudadas com mais detalhes
 Descreva brevemente a parte do artigo cujo experimento ou análise foi reproduzido. Explique o que foi usado como entrada e saída.
 
 # 4. Dados usados como entrada
