@@ -74,6 +74,8 @@ O algoritmo Kruskal é usado para construir uma árvore geradora mínima para um
 
 Para aplicação deste modelo foi utilizado a plataforma de código aberto Cytoscape. Nesta plataforma foi utilizado uma função chamada CyFinder que contém as sub-funções utilizadas para análise, são elas: Community Detection - Edge Betweenness e Spanning Forest Kurskal/ Spanning Forest Prim.
 
+Nesta aplicação foram utilizados uma rede com 4478 nós e 12994 arestas e isto resultou em 759 redes. 
+
 ## 5.1. Cytoscape
 
 Cytoscape é uma plataforma de software de código aberto que auxilia na visualização e análise de redes moleculares e vias biológicas, bem como expressão gênica. O Cytoscape oferece um conjunto básico de aplicativos principais para executar essas tarefas, mas também oferece uma opção para adicionar plug-ins feitos pelo usuário na forma de arquivos de instalação do Java Archive (JAR) Maven. Esses plug-ins podem ser semelhantes aos aplicativos principais e podem ajudar na visualização, geração e análise da rede. Nosso projeto foi desenvolvido para o Cytoscape 3.8.2 [1], [2]. CyFinder é um aplicativo Cytoscape que auxilia na localização e visualização de subgráficos dentro de uma rede selecionada. O CyFinder realiza suas tarefas envolvendo uma API simples de gráficos e algoritmos de gráfico com tarefas do Cytoscape que convertem as redes do Cytoscape para os gráficos na API e executam os algoritmos. Como o formato de arquivo gráfico padrão ao usar o Cytoscape assume arestas não direcionadas, a primeira funcionalidade do CyFinder é tornar a rede selecionada não direcionada, tornando todas as arestas não direcionadas ou adicionando arestas direcionadas em sentido inverso para todas as arestas direcionadas
