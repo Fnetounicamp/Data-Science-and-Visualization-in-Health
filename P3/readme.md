@@ -81,17 +81,17 @@ A Figura abaixo mostra algumas das redes que foram geradas pela função de dete
 
 ![Isso é uma imagem](/P3/assets/communityall2.png)
 
-Através da função Spanning Forest foi possível chegar à três configurações de árvores geradoras mínimas. 
+Através da função Spanning Forest foi possível chegar à três configurações de árvores geradoras mínimas. A árvore mínima geradora de Kruskal, de Prim e ambas sub- função juntas. Os resultados podem ser vistos nas imagens a seguir.
 
-* Árvore gerado mínima de Kurskal. 
+* Árvore gerado mínima de Kurskal. Neste caso foi gerada uma árvore mínima com atributo PubMed ID igual a 4.9784285836E10.
 
 ![Isso é uma imagem](/P3/assets/kruskal.png)
 
-* Árvore gerado mínima de Prim. 
+* Árvore gerado mínima de Prim. Neste caso foi gerada uma árvore mínima com atributo PubMed ID igual a 4.980513973E10.
 
 ![Isso é uma imagem](/P3/assets/prim.png)
 
-* Árvore gerado mínima de Kurskal e Prim atuando em conjunto. 
+* Árvore gerado mínima de Kurskal e Prim atuando em conjunto. Por fim, foi gerada uma árvore mínima com atributo PubMed ID igual a 4.980513973E10 e Kurskal PubMed ID igual a 4.9761196648E10.
 
 ![Isso é uma imagem](/P3/assets/primandkruskal.png)
 
