@@ -51,7 +51,8 @@ Título do Dataset	http://base1.org/	Breve resumo (duas ou três linhas) sobre o
 
 # 5. Método
 
-O método escolhido para reproduzir o dataset deste artigo foi usar as funções algoritmicas de Kruskal e Prim para construir árvores geradoras mínimas.  Mas, o que exatamente é uma árvore geradora mínima?
+O método escolhido para reproduzir o dataset deste artigo foi usar as funções algorítmicas de Kruskal e Prim, além da função Community Detection via Edge Betweenness para construir árvores geradoras mínimas.  Mas, o que exatamente é uma árvore geradora mínima?
+
 Primeiramente é necessário entender o que é uma árvore geradora. Uma árvore geradora é simplesmente um conjunto de arestas do grafo que gera uma árvore. Toda árvore é um grafo conexo acíclico. Mas é mais fácil imaginar o mesmo grafo com pelo menos uma aresta entrando e no máximo uma aresta saindo de cada vértice. Uma árvore geradora  é um subconjunto de um grafo com o mesmo número de vértices que o grafo e arestas igual ao número de vértices -1, isto é, ela é chamada **mínima** se, dentre todas as árvores geradoras que existem no grafo, a soma dos pesos nas arestas dela é o menor possível, conforme mostra a imagem a seguir.
 
 ![Isso é uma imagem](/P3/assets/xnQzT.png)
@@ -59,6 +60,20 @@ Primeiramente é necessário entender o que é uma árvore geradora. Uma árvore
 Conforme mencionado anteriormente, o algoritmo de Prim (também conhecido como algoritmo de Jarník) é um algoritmo "ambicioso" que encontra uma árvore geradora mínima para um grafo não direcionado ponderado, ou seja, ele encontra um subconjunto das arestas que forma uma árvore que inclui todos os vértices, onde o peso total de todas as arestas da árvore é minimizado. O algoritmo opera construindo esta árvore um vértice por vez, a partir de um vértice inicial arbitrário, a cada passo adicionando a menor (baixo peso) conexão possível da árvore para outro vértice.
 
 O algoritmo Kruskal é usado para construir uma árvore geradora mínima para um determinado grafo. Ele também tem um custo mínimo para a soma de todos os pesos das arestas em uma árvore geradora. Este algoritmo ordena todas as arestas em ordem crescente de seus pesos de arestas e continua adicionando nós à árvore apenas se a aresta escolhida não formar nenhum ciclo. Além disso, ele escolhe a aresta com um custo mínimo no início e a aresta com um custo máximo no final. Assim, pode-se dizer que o algoritmo de Kruskal faz uma escolha localmente ótima, com a intenção de encontrar a solução ótima global. É por isso que é chamado de algoritmo "ambicioso".
+
+Para aplicação deste modelo foi utilizado a plataforma de código aberto Cytoscape. Nesta plataforma foi utilizado uma função chamada CyFinder que contém as sub-funções utilizadas para análise, são elas: Community Detection - Edge Betweenness e Spanning Forest Kurskal/ Spanning Forest Prim.
+
+## 5.1. Cytoscape
+
+Cytoscape é uma plataforma de software de código aberto que auxilia na visualização e análise de redes moleculares e vias biológicas, bem como expressão gênica. O Cytoscape oferece um conjunto básico de aplicativos principais para executar essas tarefas, mas também oferece uma opção para adicionar plug-ins feitos pelo usuário na forma de arquivos de instalação do Java Archive (JAR) Maven. Esses plug-ins podem ser semelhantes aos aplicativos principais e podem ajudar na visualização, geração e análise da rede. Nosso projeto foi desenvolvido para o Cytoscape 3.8.2 [1], [2]. CyFinder é um aplicativo Cytoscape que auxilia na localização e visualização de subgráficos dentro de uma rede selecionada. O CyFinder realiza suas tarefas envolvendo uma API simples de gráficos e algoritmos de gráfico com tarefas do Cytoscape que convertem as redes do Cytoscape para os gráficos na API e executam os algoritmos. Como o formato de arquivo gráfico padrão ao usar o Cytoscape assume arestas não direcionadas, a primeira funcionalidade do CyFinder é tornar a rede selecionada não direcionada, tornando todas as arestas não direcionadas ou adicionando arestas direcionadas em sentido inverso para todas as arestas direcionadas
+
+## 5.2. Cytoscape - Funções 
+
+CyFinder oferece atualmente três Algoritmos de Community Detection: Fastgreedy, Edge Betweenness, Label Propagation e Walktrap.
+Community Detection nos permite encontrar coleções não sobrepostas de genes que são fortemente coexpressos entre si e fracamente coexpressos com genes em outras comunidades. Em Community Detection encontramos clusters de Nodes relacionados em uma Rede.
+Os algoritmos de Detecção da Comunidade variam em método; portanto, seus resultados e desempenho diferem. Fastgreedy é o mais rápido, enquanto Edge Betweenness é o mais lento. As Comunidades geradas pelos algoritmos pertencem à estrutura da Comunidade da Rede de entrada com a melhor Modularidade. A modularidade é uma propriedade numérica que dá a qualidade da potencial estrutura da Comunidade de uma Rede. As implementações dos algoritmos de Detecção Comunitária são baseadas naqueles no pacote de software igraph. Os algoritmos têm uma variante sem peso na qual todas as arestas recebem um valor igual de 1 e uma variante ponderada na qual um atributo de peso é escolhido entre os atributos de aresta das redes no Cytoscape.
+
+O algoritmo Edge Betweenness, também chamado de algoritmo de Girvan-Newman, baseia-se na noção de Edge Betweenness. Se encontrarmos todos os caminhos mais curtos entre todos os pares de nós na rede, então podemos definir o Edge Betweenness de uma aresta como o número desses caminhos mais curtos que a incluem. A variante ponderada ajusta os valores de Edge Betweenness para levar em conta os pesos de Edge. O algoritmo começa com uma comunidade com todos os nós, remove a aresta com a maior interatividade da aresta e gera os componentes conectados resultantes como as comunidades da iteração, em seguida, recalcula os valores. As Comunidades com a melhor modularidade são geradas.
 
 # 6. Resultados
 Apresente os resultados obtidos pela sua adaptação. Confronte os seus resultados com aqueles do artigo. Esta seção opcionalmente pode ser apresentada em conjunto com o método.
