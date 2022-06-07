@@ -139,7 +139,7 @@ Para o arquivo **LC_NON_SGA_GENETIC_011906.txt** também foram feitas as árvore
 
 * Árvore gerado mínima de Kurskal. Neste caso foi gerada uma árvore mínima com atributo PubMed ID igual a 2.3888278864E10 usando uma configuração de seleção inicial do nó o Defeito de crescimento de dosagem.  
 
-![Isso é uma imagem](/P3/assets/kruskal_dosage.png)
+![Isso é uma imagem](/P3/assets/kurskal_dosage.png)
 ![Isso é uma imagem](/P3/assets/kruskal2.png)
 
 * Árvore gerado mínima de Prim. Neste caso foi gerada uma árvore mínima com atributo PubMed ID igual a 2.3888278864E10 usando uma configuração de seleção inicial do nó 
