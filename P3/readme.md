@@ -77,8 +77,23 @@ O algoritmo Edge Betweenness, também chamado de algoritmo de Girvan-Newman, bas
 
 # 6. Resultados
 
-A Figura abaixo mostra algumas das redes que foram geradas pela função de detecção de comunidades com a sub-função Egde Betweenness.
+A Figura abaixo mostra algumas das redes que foram geradas pela função de detecção de comunidades com a sub-função Egde Betweenness. Cada uma das redes está separada em um arquivo de imagem na pasta /P3/assets/ImageResults. Nela é possível ver cada uma das redes. Também é possível acessar o arquivo PROJET3.cys e ver com detalhes cada uma das redes.
 
-![Isso é uma imagem](/P3/assets/communityall.png)
+![Isso é uma imagem](/P3/assets/communityall2.png)
 
-Apresente os resultados obtidos pela sua adaptação. Confronte os seus resultados com aqueles do artigo. Esta seção opcionalmente pode ser apresentada em conjunto com o método.
+Através da função Spanning Forest foi possível chegar à três configurações de árvores geradoras mínimas. 
+
+* Árvore gerado mínima de Kurskal. 
+
+![Isso é uma imagem](/P3/assets/kruskal.png)
+
+* Árvore gerado mínima de Prim. 
+
+![Isso é uma imagem](/P3/assets/prim.png)
+
+* Árvore gerado mínima de Kurskal e Prim atuando em conjunto. 
+
+![Isso é uma imagem](/P3/assets/primandkruskal.png)
+
+
+
