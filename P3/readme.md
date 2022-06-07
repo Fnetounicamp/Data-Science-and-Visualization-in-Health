@@ -25,7 +25,7 @@ Reguly T, Breitkreutz A, Boucher L, et al. Comprehensive curation and analysis o
 
 O artigo escolhido apresenta um estudo de redes biológicas complexas e predição da função gênica que possibilitam métodos de alto rendimento - HTP - a fim de detectar interações genéticas e protéicas. O estudo toma como base a genética da levedura Saccharomyces cerevisiae.
 
-Utilizamos um banco de dados abrangente de interações genéticas e protéicas com evidências experimentais associadas à levedura Saccharomyces cerevisiae, tendo cerca de 33 mil interações combinados com todos os conjuntos de dados  triagem de alto rendimento - HTP.
+Utilizamos um banco de dados abrangente de interações genéticas e protéicas com evidências experimentais associadas à levedura Saccharomyces cerevisiae, tendo cerca de 33 mil interações combinados com todos os conjuntos de dados triagem de alto rendimento - HTP.
 
 As pesquisas feitas pelos autores tiveram como fonte de busca o PubMed e rendeu 53.117 publicações que continham dados de interação em um ou mais genes e/ou proteínas de levedura em desenvolvimento. Um total de 5.434 das 5.726 proteínas atualmente previstas são referenciadas pelo menos uma vez na literatura primária.
 
@@ -80,8 +80,14 @@ altamente conectadas serem estudadas com mais detalhes
 Descreva brevemente a parte do artigo cujo experimento ou análise foi reproduzido. Explique o que foi usado como entrada e saída.
 
 # 4. Dados usados como entrada
-Dataset	Endereço na Web	Resumo descritivo
-Título do Dataset	http://base1.org/	Breve resumo (duas ou três linhas) sobre o dataset.
+
+Foi utilizado o dataset voltado para o métodos de alto rendimento - HTP. Ele está disponível no link abaixo: 
+
+Título do Dataset	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1561585/# no tópico **Associated Data Supplementary Materials**. O arquivo utilizado foi o **jbiol36-s1.pdf/HTP_BIOCHEMICAL_011906.txt**. Este documento contém interações de 5 artigos HTP (11805826, 11805837, 11283351, 10655498, 10688190).
+
+Também foi usado o arquivo **LC_NON_SGA_GENETIC_011906.txt** que, usou todo conjunto genético com curadoria de literatura excluindo as interações resultantes de uma triagem SGA.
+
+Todos os conjuntos de dados foram formatados como arquivos de texto delimitados por tabulações com as seguintes colunas: Bait gene/protein, Hit gene/protein, Bait Standard Name, Hit Standard Name, Experimental System (See categories below), Source (Author), PubMed ID.
 
 # 5. Método
 
@@ -115,7 +121,7 @@ A Figura abaixo mostra algumas das redes que foram geradas pela função de dete
 
 ![Isso é uma imagem](/P3/assets/communityall2.png)
 
-Através da função Spanning Forest foi possível chegar à três configurações de árvores geradoras mínimas. A árvore mínima geradora de Kruskal, de Prim e ambas sub- função juntas. Os resultados podem ser vistos nas imagens a seguir.
+Através da função Spanning Forest foi possível chegar à três configurações de árvores geradoras mínimas para o arquivo HTP_BIOCHEMICAL_011906.txt. A árvore mínima geradora de Kruskal, de Prim e ambas sub- função juntas. Os resultados podem ser vistos nas imagens a seguir.
 
 * Árvore gerado mínima de Kurskal. Neste caso foi gerada uma árvore mínima com atributo PubMed ID igual a 4.9784285836E10.
 
@@ -129,5 +135,17 @@ Através da função Spanning Forest foi possível chegar à três configuraçõ
 
 ![Isso é uma imagem](/P3/assets/primandkruskal.png)
 
+Para o arquivo **LC_NON_SGA_GENETIC_011906.txt** também foram feitas as árvores geradores de Prim e Kruskal, conforme mostra as próximas duas imagens.
+
+* Árvore gerado mínima de Kurskal. Neste caso foi gerada uma árvore mínima com atributo PubMed ID igual a 2.3888278864E10 usando uma configuração de seleção inicial do nó o Defeito de crescimento de dosagem.  
+
+![Isso é uma imagem](/P3/assets/kruskal_dosage.png)
+![Isso é uma imagem](/P3/assets/kruskal2.png)
+
+* Árvore gerado mínima de Prim. Neste caso foi gerada uma árvore mínima com atributo PubMed ID igual a 2.3888278864E10 usando uma configuração de seleção inicial do nó 
+a Dosagem de Letalidade.
+
+![Isso é uma imagem](/P3/assets/prim_letal.png)
+![Isso é uma imagem](/P3/assets/prim2.png)
 
 
