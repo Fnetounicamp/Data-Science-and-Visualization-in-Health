@@ -76,4 +76,9 @@ Os algoritmos de Detecção da Comunidade variam em método; portanto, seus resu
 O algoritmo Edge Betweenness, também chamado de algoritmo de Girvan-Newman, baseia-se na noção de Edge Betweenness. Se encontrarmos todos os caminhos mais curtos entre todos os pares de nós na rede, então podemos definir o Edge Betweenness de uma aresta como o número desses caminhos mais curtos que a incluem. A variante ponderada ajusta os valores de Edge Betweenness para levar em conta os pesos de Edge. O algoritmo começa com uma comunidade com todos os nós, remove a aresta com a maior interatividade da aresta e gera os componentes conectados resultantes como as comunidades da iteração, em seguida, recalcula os valores. As Comunidades com a melhor modularidade são geradas.
 
 # 6. Resultados
+
+A Figura abaixo mostra algumas das redes que foram geradas pela função de detecção de comunidades com a sub-função Egde Betweenness.
+
+![Isso é uma imagem](/P3/assets/communityall.png)
+
 Apresente os resultados obtidos pela sua adaptação. Confronte os seus resultados com aqueles do artigo. Esta seção opcionalmente pode ser apresentada em conjunto com o método.
