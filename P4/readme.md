@@ -31,13 +31,17 @@ As ferramentas utilizadas para o desenvolvimento deste trabalho foram:
 - Google search
 
 # 4. Preparo e uso dos dados
-Descreva o pipeline de pré-processamento dos dados:
+Pipeline de pré-processamento dos dados.
 
-normalização (se houver)
-outros processamentos
-uso das máscaras (se houver)
-extração de atributos (se houver)
-seleção de atributos (se houver)
+- Corte das imagens para que todas tenham o mesmo tamanho (150x150)
+- Nas imagens de treinamento foram utilizadas funções de modificam a imagem quanto a posição dos pixels de forma horizontal e verticalmente com uma dada probabilidade - 50% - (RandomHorizontalFlip([p]) e RandomVerticalFlip([p])). Assim é possível obter mais imagens para treinamentos. 
+- Após foram retirados os atributos, como mínimo e máximo; média; mediana; desvio padrão, de cada um dos conjuntos de imagens (Treinamento, Validação e Teste). 
+- A arquitetura ResNet-18 foi configurada para ser usade de forma pré-treinada.
+- Os parâmetros do algoritmo de otimização que apresentou melhores resultados foram a taxa de aprendizagem igual a 0.0001 e fator de momentum igual a 0.9.
+- Para taxa de decaimento foi usado um período de 20 com um fator multiplicativo de 0.1.
+O que resultou nos parâmetros mostrados na Figura 2. 
+
+![Isso é uma imagem](/P4/assets/foto02.png)
 
 # 5. Metodologia
 
@@ -69,6 +73,10 @@ Trabalhos Futuros:
 o que poderia ser melhorado se houvesse mais tempo?
 
 # 8. Referências
-
+- https://pytorch.org/vision/stable/transforms.html
+- https://pytorch.org/docs/stable/generated/torch.optim.SGD.html
+- https://www.mathworks.com/help/deeplearning/ref/resnet18.html
+- https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.StepLR.html
+- L.Rittner. Data Science and Visualization in Health. Classificação de WML baseado em etiologia. Junho,2022.
 
 
