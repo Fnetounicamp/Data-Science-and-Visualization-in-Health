@@ -4,13 +4,7 @@
 
 O objetivo geral do projeto é, a partir de uma classificador treinado para diferenciar lesões isquêmicas e desmielinizantes, identificar qual a etiologia mais provável das lesões presentes em pacientes de Lúpus Eritematoso Sistêmico (SLE).
 
-A equipe pode usar qualquer tipo de classificador para a tarefa, desde o SVM já treinado e entregue na A11, como outro classificador baseado ou não em DL. Os dados de teste da Atividade 11 não devem ser incorporados no treinamento do classificador.
-
-O conjunto de dados de lesões de pacientes de SLE estão na pasta compartilhada. 
-
-O template do relatório se encontra no link anexo. A entrega deve ser feita pelo github, seguindo as mesmas instruções do P3.
-
-Lembro a todos que menos é mais! Ou seja, tentem fazer escolhas de projeto embasadas e discutir os resultados com profundidade, ao invés de tentar infinitas soluções, plotar milhões de gráficos e tabelas, e não saber o que concluir a partir deles. 
+O conjunto de dados de lesões de pacientes de SLE estão na pasta compartilhada.
 
 # 1. Apresentação
 O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação Ciência e Visualização de Dados em Saúde, oferecida no primeiro semestre de 2022, na Unicamp.
@@ -20,6 +14,14 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Francisco Neto  | 263798  | Aluno especial| 
 
 # 2. Introdução
+
+O Lúpus Eritematoso Sistêmico (LES ou apenas lúpus) é uma doença inflamatória crônica de origem autoimune, cujos sintomas podem surgir em diversos órgãos. São reconhecidos dois tipos principais de lúpus: o **cutâneo**, que se manifesta apenas com manchas na pele (geralmente avermelhadas ou eritematosas e daí o nome lúpus eritematoso), principalmente nas áreas que ficam expostas à luz solar (rosto, orelhas, colo (“V” do decote) e nos braços) e o **sistêmico**, no qual um ou mais órgãos internos são acometidos. 
+
+Neste trabalho é abordado o lúpus sistêmico. Neste caso, as lesões na substância branca do cérebro podem causar um déficit funcional significativo. A figura 1 ilustra como é o Lúpus no cérebro. 
+
+![Isso é uma imagem](/P4/assets/foto01.jpg)
+
+Assim, o intuito é que seja respondida a seguinte questão de pesquisa: Lúpus são mais semelhantes ao Lúpus de substância branca desmielinizante ou isquêmico, qual a etiologia mais provável das lesões presentes em pacientes de Lúpus Eritematoso Sistêmico? 
 
 # 3. Ferramentas
 
