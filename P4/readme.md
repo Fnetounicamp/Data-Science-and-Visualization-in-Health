@@ -19,7 +19,7 @@ O Lúpus Eritematoso Sistêmico (LES ou apenas lúpus) é uma doença inflamató
 
 Neste trabalho é abordado o lúpus sistêmico. Neste caso, as lesões na substância branca do cérebro podem causar um déficit funcional significativo. A figura 1 ilustra como é o Lúpus no cérebro. 
 
-![Isso é uma imagem](/P4/assets/foto01.jpg)
+![Isso é uma imagem](/P4/assets/foto01.png)
 
 Assim, o intuito é que seja respondida a seguinte questão de pesquisa: Lúpus são mais semelhantes ao Lúpus de substância branca desmielinizante ou isquêmico, qual a etiologia mais provável das lesões presentes em pacientes de Lúpus Eritematoso Sistêmico? 
 
