@@ -24,6 +24,11 @@ Neste trabalho é abordado o lúpus sistêmico. Neste caso, as lesões na subst�
 Assim, o intuito é que seja respondida a seguinte questão de pesquisa: Lúpus são mais semelhantes ao Lúpus de substância branca desmielinizante ou isquêmico, qual a etiologia mais provável das lesões presentes em pacientes de Lúpus Eritematoso Sistêmico? 
 
 # 3. Ferramentas
+As ferramentas utilizadas para o desenvolvimento deste trabalho foram:
+
+- Notebook google colab
+- Google drive
+- Google search
 
 # 4. Preparo e uso dos dados
 Descreva o pipeline de pré-processamento dos dados:
