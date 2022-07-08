@@ -50,8 +50,7 @@ As métricas do modelo de treinamento podem ser visualizados na Figura 3. Nela, 
 
 ![Isso é uma imagem](/P4/assets/foto03.png)
 
-métricas de avaliação
-resultados do treinamento do classificador usando tabelas e gráficos
+![Isso é uma imagem](/P4/assets/foto04.png)
 
 # 6. Resultados e Discussão
 
