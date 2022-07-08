@@ -46,13 +46,10 @@ O que resultou nos parâmetros mostrados na Figura 2.
 
 ![Isso é uma imagem](/P4/assets/foto02.png)
 
+As métricas do modelo de treinamento podem ser visualizados na Figura 3. Nela, é possível verificar que o treinamento teve um aproveitamento de 92.86%. 
 
+![Isso é uma imagem](/P4/assets/foto03.png)
 
-Descreva o classificador escolhido e o pipeline de treinamento:
-
-split dos dados de treinamento
-escolha de parâmetros do classificador
-validação cruzada
 métricas de avaliação
 resultados do treinamento do classificador usando tabelas e gráficos
 
@@ -64,7 +61,10 @@ apresente os resultados de forma quantitativa e qualitativa
 tenha em mente que quem irá ler o relatório é uma equipe multidisciplinar. Descreva questões técnicas, mas também a intuição por trás delas.
 
 # 7. Conclusão
-Destacar as principais conclusões obtidas no desenvolvimento do projeto.
+
+Para ter bom modelo de classificação de de lesões em imagens médicas, é necessário que se tenha um conhecimento multidiciplinar que auxilia na escolhas dos parâmetros mais adequados para tal classificação. O uso destes parâmetros ajudam as Redes Neurais Convolucionais - CNN - a ter um dataset de treinamento muito melhor e, consequentemente, uma melhor predição das lesões.
+
+
 
 Destacar os principais desafios enfrentados: Por não ser da área de computação, tive um pouco de dificuldade em acompanhar o andamento e desenvolvimento das atividades, principalmente áquelas que necessitaram de maior profundidade na área da computação. Tive que me dedicar a algun cursos paralelos para ajudar no andamento das atividades. Mesmo assim, por ter um tempo, relativamente, baixo para estudos, o desenvolvimento das atividades P3 e P4 foram mais desafiadoras.
 
