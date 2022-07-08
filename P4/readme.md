@@ -36,6 +36,9 @@ Pipeline de pré-processamento dos dados.
 - Corte das imagens para que todas tenham o mesmo tamanho (150x150)
 - Nas imagens de treinamento foram utilizadas funções de modificam a imagem quanto a posição dos pixels de forma horizontal e verticalmente com uma dada probabilidade - 50% - (RandomHorizontalFlip([p]) e RandomVerticalFlip([p])). Assim é possível obter mais imagens para treinamentos. 
 - Após foram retirados os atributos, como mínimo e máximo; média; mediana; desvio padrão, de cada um dos conjuntos de imagens (Treinamento, Validação e Teste). 
+
+# 5. Metodologia
+
 - A arquitetura ResNet-18 foi configurada para ser usade de forma pré-treinada.
 - Os parâmetros do algoritmo de otimização que apresentou melhores resultados foram a taxa de aprendizagem igual a 0.0001 e fator de momentum igual a 0.9.
 - Para taxa de decaimento foi usado um período de 20 com um fator multiplicativo de 0.1.
@@ -43,7 +46,7 @@ O que resultou nos parâmetros mostrados na Figura 2.
 
 ![Isso é uma imagem](/P4/assets/foto02.png)
 
-# 5. Metodologia
+
 
 Descreva o classificador escolhido e o pipeline de treinamento:
 
@@ -52,7 +55,6 @@ escolha de parâmetros do classificador
 validação cruzada
 métricas de avaliação
 resultados do treinamento do classificador usando tabelas e gráficos
-Justificar as escolhas. Esta parte do relatório pode ser copiada da Atividade 11, caso o grupo opte por usar o SVM já treinado.
 
 # 6. Resultados e Discussão
 
@@ -64,13 +66,11 @@ tenha em mente que quem irá ler o relatório é uma equipe multidisciplinar. De
 # 7. Conclusão
 Destacar as principais conclusões obtidas no desenvolvimento do projeto.
 
-Destacar os principais desafios enfrentados.
+Destacar os principais desafios enfrentados: Por não ser da área de computação, tive um pouco de dificuldade em acompanhar o andamento e desenvolvimento das atividades, principalmente áquelas que necessitaram de maior profundidade na área da computação. Tive que me dedicar a algun cursos paralelos para ajudar no andamento das atividades. Mesmo assim, por ter um tempo, relativamente, baixo para estudos, o desenvolvimento das atividades P3 e P4 foram mais desafiadoras.
 
-Principais lições aprendidas.
+Principais lições aprendidas: Apesar da dificuldade em acompanhar o andamento da turma, consegui ter uma boa noção de como funcionam os algoritmos de Deep Learning, como as imagens médicas são tratadas e o quão importante é a evolução desta tecnologia e disciplina para auxiliar na área da saúde.
 
-Trabalhos Futuros:
-
-o que poderia ser melhorado se houvesse mais tempo?
+Como trabalho Futuro, tendo mais tempo para desenvolvimento e aprendizagem, coloco um aprofundamento no tema de imagens médicas para conseguir parâmetros mais interessantes e que tenham mais informações relevantes a serem extraídas das imagens.
 
 # 8. Referências
 - https://pytorch.org/vision/stable/transforms.html
