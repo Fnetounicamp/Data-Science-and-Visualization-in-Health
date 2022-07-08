@@ -54,10 +54,11 @@ As métricas do modelo de treinamento podem ser visualizados na Figura 3. Nela, 
 
 # 6. Resultados e Discussão
 
-Esta seção deve apresentar o resultado de predição das lesões de LES usando o classificador treinado. Também deve tentar explicar quais os atributos relevantes usados na classificação obtida
 
-apresente os resultados de forma quantitativa e qualitativa
-tenha em mente que quem irá ler o relatório é uma equipe multidisciplinar. Descreva questões técnicas, mas também a intuição por trás delas.
+![Isso é uma imagem](/P4/assets/foto05.png)
+
+
+![Isso é uma imagem](/P4/assets/foto06.png)
 
 # 7. Conclusão
 
@@ -77,5 +78,8 @@ Como trabalho Futuro, tendo mais tempo para desenvolvimento e aprendizagem, colo
 - https://www.mathworks.com/help/deeplearning/ref/resnet18.html
 - https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.StepLR.html
 - L.Rittner. Data Science and Visualization in Health. Classificação de WML baseado em etiologia. Junho,2022.
+- L.Rittner. Data Science and Visualization in Health. Deep Learning: key techniques. Junho,2022.
+- L.Rittner. Data Science and Visualization in Health. Convolutional Neural Network (CNN). Junho,2022.
+- L.Rittner. Data Science and Visualization in Health. FILTRAGEM NO DOMÍNIO ESPACIAL. Junho,2022.
 
 
